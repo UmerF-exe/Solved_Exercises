@@ -57,3 +57,6 @@
 // alert("My email address is " + email);
 
 
+// Q 07
+var book = "A smarter way to learn JavaScript";
+alert(book);
