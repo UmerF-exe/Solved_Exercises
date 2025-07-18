@@ -206,3 +206,13 @@
 // document.writeln("<p>Total cost of your order is " + totalCost + "</p>");
 
 
+// Q 08
+var totalMarks = 980;
+var obtainedMarks = 804;
+var percentage = (obtainedMarks / totalMarks) * 100;
+document.writeln("<h1>Marks Sheet</h1>");
+document.writeln("<p>Total Marks: " + totalMarks + "</p>");
+document.writeln("<p>Marks Obtained: " + obtainedMarks + "</p>");
+document.writeln("<p>Percentage: " + percentage + "%</p>");
+
+
