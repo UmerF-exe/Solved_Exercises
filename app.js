@@ -12,3 +12,7 @@
 // alert("Welcome to JS Land... \n Happy Coding!");
 
 
+// Q 04
+alert("Welcome to JS Land...");
+alert("Happy Coding.!");
+
