@@ -166,19 +166,19 @@
 
 
 // Q 05
-var tableNumber = 4;
-var num = 1;
-document.writeln("<h1>Multiplication Table of " + tableNumber + "</h1>");
-document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
-document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
-document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
-document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
-document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
-document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
-document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
-document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
-document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
-document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num) + "</p>");
+// var tableNumber = 4;
+// var num = 1;
+// document.writeln("<h1>Multiplication Table of " + tableNumber + "</h1>");
+// document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
+// document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
+// document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
+// document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
+// document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
+// document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
+// document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
+// document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
+// document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
+// document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num) + "</p>");
 
 
 
