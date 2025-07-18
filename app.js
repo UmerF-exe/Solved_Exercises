@@ -311,20 +311,20 @@
 
 
 // Q 05
-var sub1 = prompt("Enter first subject name:");
-var sub2 = prompt("Enter second subject name:");
-var sub3 = prompt("Enter third subject name:");
-var totalMarks = 100;
-var marks1 = +prompt("Enter marks obtained in " + sub1 + ":");
-var marks2 = +prompt("Enter marks obtained in " + sub2 + ":");
-var marks3 = +prompt("Enter marks obtained in " + sub3 + ":");
-var totalMarksObtained = marks1 + marks2 + marks3;
-var percentage = (totalMarksObtained / (totalMarks * 3)) * 100;
-document.writeln("<table>");
-document.writeln("<tr><th>Subject</th><th>Total Marks</th><th>Marks Obtained</th><th>Percentage</th></tr>");
-document.writeln("<tr><td>" + sub1 + "</td><td>" + totalMarks + "</td><td>" + marks1 + "</td><td>" + (marks1 / totalMarks * 100) + "%</td></tr>");
-document.writeln("<tr><td>" + sub2 + "</td><td>" + totalMarks + "</td><td>" + marks2 + "</td><td>" + (marks2 / totalMarks * 100) + "%</td></tr>");
-document.writeln("<tr><td>" + sub3 + "</td><td>" + totalMarks + "</td><td>" + marks3 + "</td><td>" + (marks3 / totalMarks * 100) + "%</td></tr>");
-document.writeln("<tr><td></d><td>" + totalMarks * 3 + "</td><td>" + totalMarksObtained + "</td><td>" + percentage + "%</td></tr>");
-document.writeln("</table>");
+// var sub1 = prompt("Enter first subject name:");
+// var sub2 = prompt("Enter second subject name:");
+// var sub3 = prompt("Enter third subject name:");
+// var totalMarks = 100;
+// var marks1 = +prompt("Enter marks obtained in " + sub1 + ":");
+// var marks2 = +prompt("Enter marks obtained in " + sub2 + ":");
+// var marks3 = +prompt("Enter marks obtained in " + sub3 + ":");
+// var totalMarksObtained = marks1 + marks2 + marks3;
+// var percentage = (totalMarksObtained / (totalMarks * 3)) * 100;
+// document.writeln("<table>");
+// document.writeln("<tr><th>Subject</th><th>Total Marks</th><th>Marks Obtained</th><th>Percentage</th></tr>");
+// document.writeln("<tr><td>" + sub1 + "</td><td>" + totalMarks + "</td><td>" + marks1 + "</td><td>" + (marks1 / totalMarks * 100) + "%</td></tr>");
+// document.writeln("<tr><td>" + sub2 + "</td><td>" + totalMarks + "</td><td>" + marks2 + "</td><td>" + (marks2 / totalMarks * 100) + "%</td></tr>");
+// document.writeln("<tr><td>" + sub3 + "</td><td>" + totalMarks + "</td><td>" + marks3 + "</td><td>" + (marks3 / totalMarks * 100) + "%</td></tr>");
+// document.writeln("<tr><td></d><td>" + totalMarks * 3 + "</td><td>" + totalMarksObtained + "</td><td>" + percentage + "%</td></tr>");
+// document.writeln("</table>");
 
