@@ -265,3 +265,17 @@
 
 // Chapter 06-09
 
+// Q 01
+var a = 10;
+document.writeln("<h1>Result: </h1>");
+document.writeln("<p>The value of a is: " + a + " </p>");
+document.writeln("<p>The value of ++a is: " + ++a + " </p>");
+document.writeln("<p>Now the value of a is: " + a + " </p>");
+document.writeln("<p>The value of a++ is: " + a++ + " </p>");
+document.writeln("<p>Now the value of a is: " + a + " </p>");
+document.writeln("<p>The value of --a is: " + --a + " </p>");
+document.writeln("<p>Now the value of a is: " + a + " </p>");
+document.writeln("<p>The value of a-- is: " + a-- + " </p>");
+document.writeln("<p>Now the value of a is: " + a + " </p>");
+
+
