@@ -47,3 +47,9 @@
 // alert(course);
 
 
+// Q 05
+var pizza = "PIZZA \nPIZZ \nPIZ \nPI \nP";
+alert(pizza);
+
+
+
