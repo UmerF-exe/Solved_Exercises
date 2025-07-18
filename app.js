@@ -58,5 +58,8 @@
 
 
 // Q 07
-var book = "A smarter way to learn JavaScript";
-alert(book);
+// var book = "A smarter way to learn JavaScript";
+// alert(book);
+
+
+
