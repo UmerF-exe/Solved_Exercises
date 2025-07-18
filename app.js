@@ -53,7 +53,7 @@
 
 
 // Q 06
-var email = "example@gmail.com";
-alert("My email address is " + email);
+// var email = "example@gmail.com";
+// alert("My email address is " + email);
 
 
