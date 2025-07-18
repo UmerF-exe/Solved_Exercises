@@ -191,18 +191,18 @@
 
 
 // Q 07
-var item1Price = 650;
-var item2Price = 100;
-var item1Quantity = 3;
-var item2Quantity = 7;
-var shippingCharges = 100;
-var totalCost = (item1Price * item1Quantity) + (item2Price * item2Quantity) + shippingCharges;
-document.writeln("<h1>Shopping Cart</h1>");
-document.writeln("<p>Price of item 1 is " + item1Price + "</p>");
-document.writeln("<p>Quantity of item 1 is " + item1Quantity + "</p>");
-document.writeln("<p>Price of item 2 is " + item2Price + "</p>");
-document.writeln("<p>Quantity of item 2 is " + item2Quantity + "</p>");
-document.writeln("<p>Shipping Charges " + shippingCharges + "</p>");
-document.writeln("<p>Total cost of your order is " + totalCost + "</p>");
+// var item1Price = 650;
+// var item2Price = 100;
+// var item1Quantity = 3;
+// var item2Quantity = 7;
+// var shippingCharges = 100;
+// var totalCost = (item1Price * item1Quantity) + (item2Price * item2Quantity) + shippingCharges;
+// document.writeln("<h1>Shopping Cart</h1>");
+// document.writeln("<p>Price of item 1 is " + item1Price + "</p>");
+// document.writeln("<p>Quantity of item 1 is " + item1Quantity + "</p>");
+// document.writeln("<p>Price of item 2 is " + item2Price + "</p>");
+// document.writeln("<p>Quantity of item 2 is " + item2Quantity + "</p>");
+// document.writeln("<p>Shipping Charges " + shippingCharges + "</p>");
+// document.writeln("<p>Total cost of your order is " + totalCost + "</p>");
 
 
