@@ -62,4 +62,7 @@
 // alert(book);
 
 
+// Q 08
+document.writeln("<h1>Yah! I can write HTML content through JavaScript</h1>");
+
 
