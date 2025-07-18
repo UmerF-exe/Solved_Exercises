@@ -99,3 +99,8 @@
 
 
 // Chapter 04
+
+// Q 01
+var var1, var2, var3;
+
+
