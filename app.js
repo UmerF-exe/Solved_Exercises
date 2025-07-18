@@ -158,4 +158,11 @@
 // document.writeln("<p>The remainder is: " + variable + "</p>");
 
 
+// Q 04
+var ticketPrice = 600;
+var numberOfTickets = 5;
+var totalCost = ticketPrice * numberOfTickets;
+document.writeln("<p>Total cost to buy " + numberOfTickets + " tickets to a movie is " + totalCost + " PKR</p>");
+
+
 
