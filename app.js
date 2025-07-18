@@ -37,3 +37,11 @@
 // message = "Hello World";
 // alert(message);
 
+
+// Q 04
+var name = "John Doe";
+var age = "15 years old";
+var course = "Certified Mobile Application Development";
+alert(name);
+alert(age);
+alert(course);
