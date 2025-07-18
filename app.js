@@ -33,7 +33,7 @@
 
 
 // Q 03
-var message;
-message = "Hello World";
-alert(message);
+// var message;
+// message = "Hello World";
+// alert(message);
 
