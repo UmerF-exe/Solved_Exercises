@@ -286,3 +286,7 @@
 // var result = --a - --b + ++b + b--;
 // document.writeln("<p>Result is: " + result + " </p>");
 
+
+// Q 03
+var userName = prompt("Enter your name:");
+alert("Welcome " + userName + "!");
