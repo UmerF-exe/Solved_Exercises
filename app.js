@@ -262,3 +262,6 @@
 // document.writeln("<p>You will need " + (maximumAge - currentAge) * snapsPerDay + " " + favoriteSnap + " to last you until the ripe old age of " + maximumAge + " </p>");
 
 
+
+// Chapter 06-09
+
