@@ -217,5 +217,12 @@
 
 
 // Q 09
-// var usDollar = 104.80;
+var usDollar = 104.80;
+var saudiRiyal = 28;
+var totalCurrency = (10 * usDollar) + (25 * saudiRiyal);
+document.writeln("<h1>Currency in PKR</h1>");
+document.writeln("<p>Total Currency in PKR: " + totalCurrency + "</p>");
+
+
+
 
