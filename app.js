@@ -29,6 +29,6 @@
 
 
 // Q 02
-var myName = "Umer Farooque";
+// var myName = "Umer Farooque";
 
 
