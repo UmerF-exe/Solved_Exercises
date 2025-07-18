@@ -240,4 +240,12 @@
 // document.writeln("<p>Your Age: " + age + "</p>");
 
 
+// Q 12
+var radius = 20;
+var pi = 3.142;
+document.writeln("<h1>Geometrizer</h1>");
+document.writeln("<p>Radius of circle is: " + radius + " </p>");
+document.writeln("<p>Circumference is: " + 2 * pi * radius + " </p>");
+document.writeln("<p>Area is: " + pi * radius * radius + " </p>");
+
 
