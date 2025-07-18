@@ -225,9 +225,12 @@
 
 
 // Q 10
-var num = 5;
-var result = ((num + 5) * 10) / 2;
-document.writeln("<p>Result: " + result + "</p>");
+// var num = 5;
+// var result = ((num + 5) * 10) / 2;
+// document.writeln("<p>Result: " + result + "</p>");
+
+
+
 
 
 
