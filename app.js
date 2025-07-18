@@ -144,18 +144,18 @@
 
 
 // Q 03
-var variable;
-document.writeln("<p>Value after variable declaration is: " + variable + "</p>");
-variable = 5;
-document.writeln("<p>Initial value: " + variable + "</p>");
-variable++;
-document.writeln("<p>Value after increment is: " + variable + "</p>");
-variable += 7;
-document.writeln("<p>Value after addition is: " + variable + "</p>");
-variable--;
-document.writeln("<p>Value after decrement is: " + variable + "</p>");
-variable %= 3;
-document.writeln("<p>The remainder is: " + variable + "</p>");
+// var variable;
+// document.writeln("<p>Value after variable declaration is: " + variable + "</p>");
+// variable = 5;
+// document.writeln("<p>Initial value: " + variable + "</p>");
+// variable++;
+// document.writeln("<p>Value after increment is: " + variable + "</p>");
+// variable += 7;
+// document.writeln("<p>Value after addition is: " + variable + "</p>");
+// variable--;
+// document.writeln("<p>Value after decrement is: " + variable + "</p>");
+// variable %= 3;
+// document.writeln("<p>The remainder is: " + variable + "</p>");
 
 
 
