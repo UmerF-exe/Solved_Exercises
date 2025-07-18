@@ -112,11 +112,11 @@
 
 
 // Q 03
-document.writeln("<h1>Rules for naming JS variables</h1>");
-document.writeln("<p>Variable names can only contain letters, numbers, dollar signs, and underscores. \nFor example $my_1stVariable</p>");
-document.writeln("<p>Variable names must begin with a letter, dollar sign, or underscore. \nFor example $name, _name or name</p>");
-document.writeln("<p>Variable names are case sensitive.</p>");
-document.writeln("<p>Variable names should not be JS keywords.</p>");
-document.writeln("<p>Variable names should not contain spaces.</p>");
+// document.writeln("<h1>Rules for naming JS variables</h1>");
+// document.writeln("<p>Variable names can only contain letters, numbers, dollar signs, and underscores. \nFor example $my_1stVariable</p>");
+// document.writeln("<p>Variable names must begin with a letter, dollar sign, or underscore. \nFor example $name, _name or name</p>");
+// document.writeln("<p>Variable names are case sensitive.</p>");
+// document.writeln("<p>Variable names should not be JS keywords.</p>");
+// document.writeln("<p>Variable names should not contain spaces.</p>");
 
 
