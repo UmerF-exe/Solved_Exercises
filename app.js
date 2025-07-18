@@ -216,3 +216,6 @@
 // document.writeln("<p>Percentage: " + percentage + "%</p>");
 
 
+// Q 09
+// var usDollar = 104.80;
+
