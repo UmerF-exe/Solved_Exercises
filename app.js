@@ -106,7 +106,8 @@
 
 // Q 02
 // Legal variable names:
-var name, age, $price, _isValid, firstName;
+// var name, age, $price, _isValid, firstName;
 // Illegal variable names:
-var 1name, @age, first-name, my name, var#1;
+// var 1name, @age, first-name, my name, var#1;
+
 
