@@ -48,8 +48,8 @@
 
 
 // Q 05
-var pizza = "PIZZA \nPIZZ \nPIZ \nPI \nP";
-alert(pizza);
+// var pizza = "PIZZA \nPIZZ \nPIZ \nPI \nP";
+// alert(pizza);
 
 
 
