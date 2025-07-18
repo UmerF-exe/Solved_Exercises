@@ -91,8 +91,10 @@
 
 
 // Q 04
-var visitorName = "John Doe";
-var productTitle = "T-Shirt";
-var quantity = 5;
-document.writeln("<p><b>" + visitorName + "</b> ordered <b>" + quantity + " " + productTitle + "</b>(s) on XYZ Clothng Store.</p>");
+// var visitorName = "John Doe";
+// var productTitle = "T-Shirt";
+// var quantity = 5;
+// document.writeln("<p><b>" + visitorName + "</b> ordered <b>" + quantity + " " + productTitle + "</b>(s) on XYZ Clothng Store.</p>");
+
+
 
