@@ -288,5 +288,8 @@
 
 
 // Q 03
-var userName = prompt("Enter your name:");
-alert("Welcome " + userName + "!");
+// var userName = prompt("Enter your name:");
+// alert("Welcome " + userName + "!");
+
+
+
