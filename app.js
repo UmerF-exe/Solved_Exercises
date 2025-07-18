@@ -181,5 +181,13 @@
 // document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num) + "</p>");
 
 
+// Q 06
+var celsius = 25;
+var fahrenheitScale = (celsius * 9/5) + 32;
+document.writeln("<p>" + celsius + "°C is " + fahrenheitScale + "°F</p>");
+var fahrenheit = 70;
+var celsiusScale = (fahrenheit - 32) * 5/9;
+document.writeln("<p>" + fahrenheit + "°F is " + celsiusScale + "°C</p>");
+
 
 
