@@ -66,3 +66,6 @@
 // document.writeln("<h1>Yah! I can write HTML content through JavaScript</h1>");
 
 
+// Q 09
+var text = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬";
+alert(text);
