@@ -4,3 +4,7 @@
 
 // alert("Welcome to my site!");
 
+// Q 02
+
+alert("Error! Please enter the correct password");
+
