@@ -16,3 +16,7 @@
 // alert("Welcome to JS Land...");
 // alert("Happy Coding.!");
 
+
+// Q 05
+alert("Hello... I can run JS through my web browser's console.");
+
