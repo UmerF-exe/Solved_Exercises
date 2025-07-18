@@ -249,3 +249,16 @@
 // document.writeln("<p>Area is: " + pi * radius * radius + " </p>");
 
 
+// Q 13
+var favoriteSnap = "Chocolate Chip";
+var currentAge = 22;
+var maximumAge = 63;
+var snapsPerDay = 5;
+document.writeln("<h1>The Lifetime Supply Calculator</h1>");
+document.writeln("<p>Favorite Snap: " + favoriteSnap + " </p>");
+document.writeln("<p>Current Age: " + currentAge + " </p>");
+document.writeln("<p>Estimated Maximum Age: " + maximumAge + " </p>");
+document.writeln("<p>Amount of snacks per day: " + snapsPerDay + " </p>");
+document.writeln("<p>You will need " + (maximumAge - currentAge) * snapsPerDay + " " + favoriteSnap + " to last you until the ripe old age of " + maximumAge + " </p>");
+
+
