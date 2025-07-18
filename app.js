@@ -231,13 +231,13 @@
 
 
 // Q 11
-var currentYear = 2025;
-var birthYear = 2003;
-var age = currentYear - birthYear;
-document.writeln("<h1>Age Calculator</h1>");
-document.writeln("<p>Current Year: " + currentYear + "</p>");
-document.writeln("<p>Birth Year: " + birthYear + "</p>");
-document.writeln("<p>Your Age: " + age + "</p>");
+// var currentYear = 2025;
+// var birthYear = 2003;
+// var age = currentYear - birthYear;
+// document.writeln("<h1>Age Calculator</h1>");
+// document.writeln("<p>Current Year: " + currentYear + "</p>");
+// document.writeln("<p>Birth Year: " + birthYear + "</p>");
+// document.writeln("<p>Your Age: " + age + "</p>");
 
 
 
