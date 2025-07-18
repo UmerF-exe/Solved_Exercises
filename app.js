@@ -292,4 +292,21 @@
 // alert("Welcome " + userName + "!");
 
 
+// Q 04
+var tableNumber = prompt("Enter a number for multiplication table:", 5);
+var num = 1;
+if (tableNumber) {
+    document.writeln("<h1>Multiplication Table of " + tableNumber + "</h1>");
+    document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
+    document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
+    document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
+    document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
+    document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
+    document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
+    document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
+    document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
+    document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num++) + "</p>");
+    document.writeln("<p>" + tableNumber + " x " + num + " = " + (tableNumber * num) + "</p>");
+}
+
 
