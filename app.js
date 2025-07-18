@@ -131,15 +131,15 @@
 
 
 // Q 02
-var num1 = 5;
-var num2 = 3;
-var difference = num1 - num2;
-var product = num1 * num2;
-var quotient = num1 / num2;
-var modulus = num1 % num2;
-document.writeln("<p>Difference of " + num1 + " and " + num2 + " is " + difference + "</p>");
-document.writeln("<p>Product of " + num1 + " and " + num2 + " is " + product + "</p>");
-document.writeln("<p>Quotient of " + num1 + " and " + num2 + " is " + quotient + "</p>");
-document.writeln("<p>Modulus of " + num1 + " and " + num2 + " is " + modulus + "</p>");  
+// var num1 = 5;
+// var num2 = 3;
+// var difference = num1 - num2;
+// var product = num1 * num2;
+// var quotient = num1 / num2;
+// var modulus = num1 % num2;
+// document.writeln("<p>Difference of " + num1 + " and " + num2 + " is " + difference + "</p>");
+// document.writeln("<p>Product of " + num1 + " and " + num2 + " is " + product + "</p>");
+// document.writeln("<p>Quotient of " + num1 + " and " + num2 + " is " + quotient + "</p>");
+// document.writeln("<p>Modulus of " + num1 + " and " + num2 + " is " + modulus + "</p>");  
 
 
