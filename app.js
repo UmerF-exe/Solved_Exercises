@@ -52,4 +52,8 @@
 // alert(pizza);
 
 
+// Q 06
+var email = "example@gmail.com";
+alert("My email address is " + email);
+
 
