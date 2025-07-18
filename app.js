@@ -24,4 +24,7 @@
 
 // Chapter 02
 
+// Q 01
+var username;
+
 
