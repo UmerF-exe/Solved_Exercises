@@ -32,3 +32,8 @@
 // var myName = "Umer Farooque";
 
 
+// Q 03
+var message;
+message = "Hello World";
+alert(message);
+
