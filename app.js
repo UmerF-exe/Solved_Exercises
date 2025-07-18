@@ -2,5 +2,5 @@
 
 // Q 01
 
-alert("Welcome to my site!");
+// alert("Welcome to my site!");
 
