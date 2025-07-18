@@ -28,3 +28,7 @@
 // var username;
 
 
+// Q 02
+var myName = "Umer Farooque";
+
+
