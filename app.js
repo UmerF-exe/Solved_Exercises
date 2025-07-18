@@ -85,7 +85,7 @@
 
 
 // Q 03
-var birthYear = 2003;
-document.writeln("<p>My birth year is " + birthYear + "</p>");
-document.writeln("<p>Data type of my declared variable is number</p>");
+// var birthYear = 2003;
+// document.writeln("<p>My birth year is " + birthYear + "</p>");
+// document.writeln("<p>Data type of my declared variable is number</p>");
 
