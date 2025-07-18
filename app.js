@@ -6,5 +6,5 @@
 
 // Q 02
 
-alert("Error! Please enter the correct password");
+// alert("Error! Please enter the correct password");
 
