@@ -79,3 +79,8 @@
 // alert("I am " + age + " years old.");
 
 
+// Q 02
+var n = 14;
+alert("You have visited this site " + n + " times.");
+
+
