@@ -592,22 +592,22 @@
 
 
 // Q 07
-var currentTime = prompt("Enter time in 24-hour format (e.g., 1900 for 7 PM):");
-if (currentTime >= "0000" && currentTime < 1200) {
-    alert("Good Morning!");
-}
-else if (currentTime >= 1200 && currentTime < 1700) {
-    alert("Good Afternoon!");
-}
-else if (currentTime >= 1700 && currentTime < 2100) {
-    alert("Good Evening!");
-}
-else if (currentTime >= 2100 && currentTime <= 2359) {
-    alert("Good Night!");
-}
-else {
-    alert("Invalid time format. Please enter a valid time in 24-hour format.");
-}
+// var currentTime = prompt("Enter time in 24-hour format (e.g., 1900 for 7 PM):");
+// if (currentTime >= "0000" && currentTime < 1200) {
+//     alert("Good Morning!");
+// }
+// else if (currentTime >= 1200 && currentTime < 1700) {
+//     alert("Good Afternoon!");
+// }
+// else if (currentTime >= 1700 && currentTime < 2100) {
+//     alert("Good Evening!");
+// }
+// else if (currentTime >= 2100 && currentTime <= 2359) {
+//     alert("Good Night!");
+// }
+// else {
+//     alert("Invalid time format. Please enter a valid time in 24-hour format.");
+// }
 
 
 
