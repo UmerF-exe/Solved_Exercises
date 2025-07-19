@@ -633,6 +633,7 @@
 // var booleanArray = [true, false, true];
 
 
-
+// Q 06
+var mixedArray = ["apple", 42, true, "banana", 3.14];
 
 
