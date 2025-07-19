@@ -703,8 +703,8 @@
 
 
 // Q 11
-var cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
-document.writeln("<p>Cities List: " + cities + " </p>");
-document.writeln("<p>Selected Cities List: " + cities.slice(2,5) + " </p>");
+// var cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
+// document.writeln("<p>Cities List: " + cities + " </p>");
+// document.writeln("<p>Selected Cities List: " + cities.slice(2,5) + " </p>");
 
 
