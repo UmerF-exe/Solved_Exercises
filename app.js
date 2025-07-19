@@ -515,4 +515,19 @@
 
 // Chapter 12-13
 
+// Q 01
+var char = prompt("Enter a character:");
+if (char >= 'A' && char <= 'Z') {
+    alert("You entered an uppercase letter. " + char);
+}
+else if (char >= 'a' && char <= 'z') {
+    alert("You entered a lowercase letter. " + char);
+} 
+else if (Number(char) >= 0) {
+    alert("You entered a digit. " + char);
+} else {
+    alert("You entered a special character. " + char);
+}
+
+
 
