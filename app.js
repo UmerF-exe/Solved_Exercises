@@ -333,9 +333,9 @@
 // Chapter 09-11
 
 // Q 01
-var city = prompt("Enter your city name:");
-if (city.toLowerCase() === "karachi"){
-    alert("Welcome to the city of lights!");
-}
+// var city = prompt("Enter your city name:");
+// if (city.toLowerCase() === "karachi"){
+//     alert("Welcome to the city of lights!");
+// }
 
 
