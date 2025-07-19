@@ -349,3 +349,16 @@
 // }
 
 
+// Q 03
+var signalColor = prompt("Enter traffic signal color (red, yellow, green):");
+if (signalColor.toLowerCase() === "red") {
+    alert("Must Stop");
+}
+if (signalColor.toLowerCase() === "yellow") {
+    alert("Ready to move");
+}
+if (signalColor.toLowerCase() === "green") {
+    alert("Move now");
+}
+
+
