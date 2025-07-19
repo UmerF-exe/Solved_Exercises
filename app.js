@@ -617,6 +617,10 @@
 // var students = [];
 
 
+// Q 02
+var students = new Array();
+
+
 
 
 
