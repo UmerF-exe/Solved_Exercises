@@ -626,5 +626,7 @@
 
 
 // Q 04
-var numberArray = [1, 2, 3, 4, 5];
+// var numberArray = [1, 2, 3, 4, 5];
+
+
 
