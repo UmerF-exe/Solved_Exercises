@@ -613,6 +613,7 @@
 
 // Chapter 14-16
 
-
+// Q 01
+var students = [];
 
 
