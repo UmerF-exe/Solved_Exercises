@@ -708,3 +708,10 @@
 // document.writeln("<p>Selected Cities List: " + cities.slice(2,5) + " </p>");
 
 
+// Q 12
+var arr = ["This", "is", "my", "cat"];
+document.writeln("<p>Array: " + arr + "</p>");
+document.writeln("<p>String: " + arr.join(" ") + "</p>");
+
+
+
