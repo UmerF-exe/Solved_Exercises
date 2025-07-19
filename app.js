@@ -709,9 +709,9 @@
 
 
 // Q 12
-var arr = ["This", "is", "my", "cat"];
-document.writeln("<p>Array: " + arr + "</p>");
-document.writeln("<p>String: " + arr.join(" ") + "</p>");
+// var arr = ["This", "is", "my", "cat"];
+// document.writeln("<p>Array: " + arr + "</p>");
+// document.writeln("<p>String: " + arr.join(" ") + "</p>");
 
 
 
