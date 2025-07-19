@@ -739,15 +739,15 @@
 
 
 // Palindrome Number
-var number = prompt("Enter a number to check if it is a palindrome:");
-var reversedNumber = "";
-for (var i = number.length - 1; i >= 0; i--){
-    reversedNumber += number[i];
-}
-if(reversedNumber === number) {
-    alert(number + " is palindrome.");
-}
-else {
-    alert(number + " is not palindrome.");
-}
+// var number = prompt("Enter a number to check if it is a palindrome:");
+// var reversedNumber = "";
+// for (var i = number.length - 1; i >= 0; i--){
+//     reversedNumber += number[i];
+// }
+// if(reversedNumber === number) {
+//     alert(number + " is palindrome.");
+// }
+// else {
+//     alert(number + " is not palindrome.");
+// }
 
