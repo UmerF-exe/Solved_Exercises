@@ -458,9 +458,9 @@
 
 
 // Q 08
-var number = +prompt("Enter a number to check if it is divisible by 3:");
-if (number % 3 === 0) {
-    alert("The number " + number + " is divisible by 3.");
-}
+// var number = +prompt("Enter a number to check if it is divisible by 3:");
+// if (number % 3 === 0) {
+//     alert("The number " + number + " is divisible by 3.");
+// }
 
 
