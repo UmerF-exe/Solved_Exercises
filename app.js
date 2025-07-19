@@ -630,6 +630,9 @@
 
 
 // Q 05
-var booleanArray = [true, false, true];
+// var booleanArray = [true, false, true];
+
+
+
 
 
