@@ -556,4 +556,14 @@
 // }
 
 
+// Q 04
+var char = prompt("Enter a character to check whether it is vowel or not:");
+if (char.length === 1 && (char.toLowerCase() === 'a' || char.toLowerCase() === 'e' || char.toLowerCase() === 'i' || char.toLowerCase() === 'o' || char.toLowerCase === 'u')){
+    console.log("True");
+}
+else {
+    console.log("False");
+}
+
+
 
