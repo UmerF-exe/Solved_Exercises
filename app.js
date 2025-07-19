@@ -544,16 +544,16 @@
 
 
 // Q 03
-var number = +prompt("Enter a number:");
-if (number > 0) {
-    console.log("The entered number " + number + " is positive number.");
-}
-else if (number < 0) {
-    console.log("The entered number " + number + " is negative number.");
-}
-else {
-    console.log("The number is zero.");
-}
+// var number = +prompt("Enter a number:");
+// if (number > 0) {
+//     console.log("The entered number " + number + " is positive number.");
+// }
+// else if (number < 0) {
+//     console.log("The entered number " + number + " is negative number.");
+// }
+// else {
+//     console.log("The number is zero.");
+// }
 
 
 
