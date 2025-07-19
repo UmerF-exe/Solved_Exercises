@@ -637,3 +637,12 @@
 // var mixedArray = ["apple", 42, true, "banana", 3.14];
 
 
+// Q 07
+var qualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil.", "PhD"];
+document.writeln("<h1>Qualifications</h1>");
+document.writeln("<ol><li>" + qualifications[0] + "</li><li>" + qualifications[1] + "</li><li>" + qualifications[2] + "</li><li>" + qualifications[3] + "</li><li>" + qualifications[4] + "</li><li>" + qualifications[5] + "</li><li>" + qualifications[6] + "</li><li>" + qualifications[7] + "</li></ol>");
+
+
+
+
+
