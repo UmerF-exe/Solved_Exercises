@@ -465,12 +465,12 @@
 
 
 // Q 09
-var number = +prompt("Enter a number to check if it is even or odd:");
-if (number % 2 === 0) {
-    alert("The number " + number + " is even.");
-}
-if (number % 2 !== 0) {
-    alert("The number " + number + " is odd.");
-}
+// var number = +prompt("Enter a number to check if it is even or odd:");
+// if (number % 2 === 0) {
+//     alert("The number " + number + " is even.");
+// }
+// if (number % 2 !== 0) {
+//     alert("The number " + number + " is odd.");
+// }
 
 
