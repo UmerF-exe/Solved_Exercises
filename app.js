@@ -731,3 +731,10 @@
 // document.writeln("<p>Out: </p>" + devices.pop());
 // document.writeln("<p>Out: </p>" + devices.pop());
 
+
+// Q 15
+var phoneBrands = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+document.writeln("<h1>Phone Brands</h1>");
+document.writeln("<select><option>" + phoneBrands[0] + "</option><option>" + phoneBrands[1] + "</option><option>" + phoneBrands[2] + "</option><option>" + phoneBrands[3] + "</option><option>" + phoneBrands[4] + "</option><option>" + phoneBrands[5] + "</option></select>");
+
+
