@@ -567,16 +567,16 @@
 
 
 // Q 05
-var password = "password123";
-var userInput = prompt("Enter your password:");
-if (userInput === "") {
-    alert("Please enter your password.");
-}
-else if (userInput === password) {
-    alert("Correct! The password you entered matches the original password.");
-} else {
-    alert("Incorrect password.");
-}
+// var password = "password123";
+// var userInput = prompt("Enter your password:");
+// if (userInput === "") {
+//     alert("Please enter your password.");
+// }
+// else if (userInput === password) {
+//     alert("Correct! The password you entered matches the original password.");
+// } else {
+//     alert("Incorrect password.");
+// }
 
 
 
