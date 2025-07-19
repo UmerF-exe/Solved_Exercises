@@ -340,12 +340,12 @@
 
 
 // Q 02
-var gender = prompt("Enter your gender");
-if(gender.toLowerCase() === "male") {
-    alert("Good Morning Sir");
-}
-if(gender.toLowerCase() === "female") {
-    alert("Good Morning Ma'am");
-}
+// var gender = prompt("Enter your gender");
+// if(gender.toLowerCase() === "male") {
+//     alert("Good Morning Sir");
+// }
+// if(gender.toLowerCase() === "female") {
+//     alert("Good Morning Ma'am");
+// }
 
 
