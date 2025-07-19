@@ -419,3 +419,30 @@
 //     alert("car is smaller than cat");
 // }
 
+
+// Q 06
+var totalMarks = +prompt("Enter total marks:");
+var obtainedMarks = +prompt("Enter obtained marks:");
+var percentage = (obtainedMarks / totalMarks) * 100;
+document.writeln("<h1>Marks Sheet</h1>");
+document.writeln("<p>Total Marks: " + totalMarks + "</p>");
+document.writeln("<p>Marks Obtained: " + obtainedMarks + "</p>");
+document.writeln("<p>Percentage: " + percentage + "%</p>");
+if (percentage >= 80) {
+    document.writeln("<p>Grade: A-one</p>");
+    document.writeln("<p>Remarks: Excellent</p>");
+}
+if (percentage >= 70 && percentage < 80) {
+    document.writeln("<p>Grade: A</p>");
+    document.writeln("<p>Remarks: Good</p>");
+}
+if (percentage >= 60 && percentage < 70) {
+    document.writeln("<p>Grade: B</p>");
+    document.writeln("<p>Remarks: You need to improve</p>");
+}
+if (percentage < 60) {
+    document.writeln("<p>Grade: Fail</p>");
+    document.writeln("<p>Remarks: Sorry</p>");
+}
+
+
