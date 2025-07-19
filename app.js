@@ -474,3 +474,19 @@
 // }
 
 
+// Q 10
+var temperature = +prompt("Enter the temperature in Celsius:");
+if (temperature > 40) {
+    alert("It is too hot outside.");
+}
+if (temperature > 30 && temperature <= 40) {
+    alert("The weather today is normal.");
+}
+if (temperature > 20 && temperature <= 30) {
+    alert("Today's weather is cool.");
+}
+if (temperature > 10 && temperature <= 20) {
+    alert("“OMG! Today’s weather is so Cool.”.");
+}   
+
+
