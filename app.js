@@ -697,9 +697,9 @@
 
 
 // Q 10
-var studentScores = [320, 230, 480, 120];
-document.writeln("<p>Scores of students: " + studentScores + " </p>");
-document.writeln("<p>Ordered Scores of students: " + studentScores.sort() + " </p>");
+// var studentScores = [320, 230, 480, 120];
+// document.writeln("<p>Scores of students: " + studentScores + " </p>");
+// document.writeln("<p>Ordered Scores of students: " + studentScores.sort() + " </p>");
 
 
 
