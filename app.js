@@ -622,7 +622,7 @@
 
 
 // Q 03
-var stringArray = ["apple", "banana", "cherry"];
+// var stringArray = ["apple", "banana", "cherry"];
 
 
 
