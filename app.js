@@ -723,5 +723,11 @@
 // document.writeln("<p>Out: </p>" + devices.shift());
 
 
-
+// Q 14
+var devices = ["keyboard", "mouse", "printer", "monitor"];
+document.writeln("<h1>Devices: </h1>" + devices);
+document.writeln("<p>Out: </p>" + devices.pop());
+document.writeln("<p>Out: </p>" + devices.pop());
+document.writeln("<p>Out: </p>" + devices.pop());
+document.writeln("<p>Out: </p>" + devices.pop());
 
