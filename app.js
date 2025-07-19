@@ -643,6 +643,16 @@
 // document.writeln("<ol><li>" + qualifications[0] + "</li><li>" + qualifications[1] + "</li><li>" + qualifications[2] + "</li><li>" + qualifications[3] + "</li><li>" + qualifications[4] + "</li><li>" + qualifications[5] + "</li><li>" + qualifications[6] + "</li><li>" + qualifications[7] + "</li></ol>");
 
 
+// Q 08
+var students = ["Michael", "John", "Tony"];
+var scores = [320, 230, 480];
+var totalMarks = 500;
+document.writeln("<p>Score of " + students[0] + " is " + scores[0] + ". Percentage: " + (scores[0] / totalMarks * 100) + "%</p>");
+document.writeln("<p>Score of " + students[1] + " is " + scores[1] + ". Percentage: " + (scores[1] / totalMarks * 100) + "%</p>");
+document.writeln("<p>Score of " + students[2] + " is " + scores[2] + ". Percentage: " + (scores[2] / totalMarks * 100) + "%</p>");
+
+
+
 
 
 
