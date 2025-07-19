@@ -491,25 +491,25 @@
 
 
 // Q 11
-var num1 = +prompt("Enter first number:");
-var num2 = +prompt("Enter second number:");
-var operator = prompt("Enter operator (+, -, *, /, %):");
-var result;
-if (operator === "+") {
-    result = num1 + num2;
-}
-if (operator === "-") {
-    result = num1 - num2;
-}
-if (operator === "*") {
-    result = num1 * num2;
-}
-if (operator === "/"){
-    result = num1 / num2;
-}
-if (operator === "%"){
-    result = num1 % num2;
-}
-alert("Result: " + result);
+// var num1 = +prompt("Enter first number:");
+// var num2 = +prompt("Enter second number:");
+// var operator = prompt("Enter operator (+, -, *, /, %):");
+// var result;
+// if (operator === "+") {
+//     result = num1 + num2;
+// }
+// if (operator === "-") {
+//     result = num1 - num2;
+// }
+// if (operator === "*") {
+//     result = num1 * num2;
+// }
+// if (operator === "/"){
+//     result = num1 / num2;
+// }
+// if (operator === "%"){
+//     result = num1 % num2;
+// }
+// alert("Result: " + result);
 
 
