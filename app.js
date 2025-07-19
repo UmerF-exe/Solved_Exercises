@@ -629,4 +629,7 @@
 // var numberArray = [1, 2, 3, 4, 5];
 
 
+// Q 05
+var booleanArray = [true, false, true];
+
 
