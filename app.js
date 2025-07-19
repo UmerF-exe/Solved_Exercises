@@ -621,6 +621,9 @@
 // var students = new Array();
 
 
+// Q 03
+var stringArray = ["apple", "banana", "cherry"];
+
 
 
 
