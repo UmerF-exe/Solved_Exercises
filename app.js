@@ -696,6 +696,10 @@
 // document.writeln("<p>Colors after removing " + numberOfColorsToRemove + " color(s) from index " + indexToRemove + ": " + colors + "</p>");
 
 
+// Q 10
+var studentScores = [320, 230, 480, 120];
+document.writeln("<p>Scores of students: " + studentScores + " </p>");
+document.writeln("<p>Ordered Scores of students: " + studentScores.sort() + " </p>");
 
 
 
