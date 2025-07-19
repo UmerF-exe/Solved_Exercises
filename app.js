@@ -652,6 +652,51 @@
 // document.writeln("<p>Score of " + students[2] + " is " + scores[2] + ". Percentage: " + (scores[2] / totalMarks * 100) + "%</p>");
 
 
+// Q 09
+var colors = ["Red", "Green", "Blue"];
+document.writeln("<h1>Colors</h1>");
+document.writeln("<p>Initial colors: " + colors + "</p>");
+
+// a)
+var addColorStart = prompt("Enter a color to add at the beginning:");
+if (addColorStart) {
+    colors.unshift(addColorStart);
+    document.writeln("<p>Colors after adding at the beginning: " + colors + "</p>");
+}
+
+// b)
+var addColorEnd = prompt("Enter a color to add at the end:");
+if (addColorEnd) {
+    colors.push(addColorEnd);
+    document.writeln("<p>Colors after adding at the end: " + colors + "</p>");
+}
+
+// c)
+colors.unshift("Purple", "Orange");
+document.writeln("<p>Colors after adding two colors at the beginning: " + colors + "</p>");
+
+// d)
+colors.shift();
+document.writeln("<p>Colors after removing the first color: " + colors + "</p>");
+
+// e)
+colors.pop();
+document.writeln("<p>Colors after removing the last color: " + colors + "</p>");
+
+// f)
+var index = +prompt("Enter the index at which you want to add a color:");
+var colorToAdd = prompt("Enter the color to add:");
+colors.splice(index, 0, colorToAdd);
+document.writeln("<p>Colors after adding " + colorToAdd + " at index " + index + ": " + colors + "</p>");
+
+// g)
+var indexToRemove = +prompt("Enter the index of the color you want to remove:");
+var numberOfColorsToRemove = +prompt("Enter the number of colors to remove:");
+colors.splice(indexToRemove, numberOfColorsToRemove);
+document.writeln("<p>Colors after removing " + numberOfColorsToRemove + " color(s) from index " + indexToRemove + ": " + colors + "</p>");
+
+
+
 
 
 
