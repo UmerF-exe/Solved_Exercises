@@ -882,4 +882,17 @@
 // }
 
 
+// Add missing number in the sorted array
+var numbers = [11, 12, 15, 19, 20];
+document.writeln("<p>Original Array: " + numbers + "</p>");
+for (var i = 0 ; i < numbers.length; i++){
+    var difference = numbers[i + 1] - numbers[i];
+    if (difference > 1){
+        for (var j = 1; j < difference; j++){
+            numbers.splice(i + j, 0, numbers[i] + j)
+        }
+    }
+}
+document.writeln("<p>Array after adding missing numbers: " + numbers + "</p>");
+
 
