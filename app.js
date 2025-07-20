@@ -864,3 +864,14 @@
 // document.writeln("<p>The largest number is: " + largestNumber + "</p>");
 
 
+// Q 09
+var numberItems = [24, 53, 78, 91, 12];
+var smallestNumber = numberItems[0];
+for (var i = 1; i < numberItems.length; i++) {
+    if (numberItems[i] < smallestNumber) {
+        smallestNumber = numberItems[i];
+    }
+}
+document.writeln("<p>Array items: " + numberItems + "</p>");
+document.writeln("<p>The largest number is: " + smallestNumber + "</p>");
+
