@@ -962,6 +962,6 @@
 
 
 // Q 03
-var str = "Pakistani";
-document.writeln("<p>String: " + str + "</p>");
-document.writeln("<p>Index of 'n' is: " + str.indexOf("n"));
+// var str = "Pakistani";
+// document.writeln("<p>String: " + str + "</p>");
+// document.writeln("<p>Index of 'n' is: " + str.indexOf("n"));
