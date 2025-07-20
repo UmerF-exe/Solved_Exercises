@@ -1063,7 +1063,7 @@
 
 
 // Q 15
-var userPassword = prompt("Enter your password: ");
+// var userPassword = prompt("Enter your password: ");
 // var flag = true;
 // for (var i = 0; i < userPassword.length; i++) {
 //     if (userPassword[i] === "!" || userPassword[i] === "," || userPassword[i] === "." || userPassword[i] === "@") {
