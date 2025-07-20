@@ -917,3 +917,30 @@
 //     }
 // }
 // console.log(result);
+
+
+// Head & Tail Game
+var enteredChoise = prompt("Enter your choice (Heads or Tails):").toLowerCase();
+var randomNumber = Math.round(Math.random() * 2);
+if (enteredChoise === "heads" || enteredChoise === "head") {
+    enteredChoise = 1;
+    if(enteredChoise === randomNumber){
+    alert("Congrats! It's Heads. You won the toss.");
+    }
+    else{
+        alert("Oops! It's Tail.")
+    }
+}
+else if(enteredChoise === "tails" || enteredChoise === "tail"){
+    enteredChoise = 2;
+    if(enteredChoise === randomNumber){
+    alert("Congrats! It's Tail. You won the toss.");
+    }
+    else{
+        alert("Oops! It's Head.")
+    }
+}
+else{
+    alert("Kindly enter correct choice.")
+
+}
