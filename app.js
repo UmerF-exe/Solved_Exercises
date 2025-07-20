@@ -1125,5 +1125,5 @@
 
 
 // Q 03
-var number = +prompt("Enter a number to find its absolute value: ");
-document.writeln("<p>Absolute value of " + number + " is: " + Math.abs(number) + "</p>");
+// var number = +prompt("Enter a number to find its absolute value: ");
+// document.writeln("<p>Absolute value of " + number + " is: " + Math.abs(number) + "</p>");
