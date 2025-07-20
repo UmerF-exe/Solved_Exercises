@@ -1105,3 +1105,6 @@
 // document.writeln("<p>Text: " + text + "</p>");
 // document.writeln("<p>There are " + count + " occurrence(s) of the word '" + word + "' in the text.</p>");
 
+
+// Chapters 26 - 30
+
