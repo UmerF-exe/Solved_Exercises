@@ -1130,6 +1130,6 @@
 
 
 // Q 04
-var diceRoll = Math.round(Math.random() * 6);
-document.writeln("Random dice value: " + diceRoll);
+// var diceRoll = Math.round(Math.random() * 6);
+// document.writeln("Random dice value: " + diceRoll);
 
