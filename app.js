@@ -896,3 +896,24 @@
 // document.writeln("<p>Array after adding missing numbers: " + numbers + "</p>");
 
 
+// Capitalize first letter of each word in a string
+var str = "the quick brown fox jumps over the lazy dog";
+var result = "";
+var flag = false;
+for (var i = 0; i < str.length; i++) {
+    if(i === 0){
+        result += str[i].toUpperCase();
+    }
+    else if (str[i] === " ") {
+        result += str[i];
+        flag = true;
+    } else {
+        if (flag) {
+            result += str[i].toUpperCase();
+            flag = false;
+        } else {
+            result += str[i];
+        }
+    }
+}
+console.log(result);
