@@ -1150,5 +1150,14 @@
 // document.writeln("Random random number between 0 and 100 is: " + Math.round(Math.random() * 100));
 
 
+// Q 07
+var weight = prompt("Enter your weight in kilograms:").toLowerCase();
+var weightInKg = parseFloat(weight);
+if (isNaN(weightInKg)) {
+    document.writeln("Please enter a valid weight.");
+}
+else {
+    document.writeln("The weight of user is: " + weightInKg + " kilograms.");
+}
 
 
