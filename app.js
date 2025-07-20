@@ -1078,3 +1078,12 @@
 //     alert("Please enter a valid password. Password must be at least 6 characters long and should not start with a number or contain special characters.");
 // }
 
+
+// Q 16
+var university = "University of Karachi";
+var arr = university.split("");
+for (var i = 0; i < arr.length; i++) {
+    document.writeln(arr[i] + "<br>");
+}
+
+
