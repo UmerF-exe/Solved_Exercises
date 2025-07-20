@@ -1162,12 +1162,15 @@
 
 
 // Q 08
-var userInput = +prompt("Enter a number between 0 and 10 to guess the secret number:");
-var secretNumber = Math.round(Math.random() * 10);
-if (userInput === secretNumber) {
-    document.writeln("<p>Congratulations! You guessed the secret number " + secretNumber + " correctly.</p>");
-}
-else {
-    document.writeln("<p>Try Again!</p>");
-}
+// var userInput = +prompt("Enter a number between 0 and 10 to guess the secret number:");
+// var secretNumber = Math.round(Math.random() * 10);
+// if (userInput === secretNumber) {
+//     document.writeln("<p>Congratulations! You guessed the secret number " + secretNumber + " correctly.</p>");
+// }
+// else {
+//     document.writeln("<p>Try Again!</p>");
+// }
+
+
+
 
