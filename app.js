@@ -968,6 +968,6 @@
 
 
 // Q 04
-var str = "Hello World";
-document.writeln("<p>String: " + str + "</p>");
-document.writeln("<p>Last Index of 'l' is: " + str.lastIndexOf("l"));
+// var str = "Hello World";
+// document.writeln("<p>String: " + str + "</p>");
+// document.writeln("<p>Last Index of 'l' is: " + str.lastIndexOf("l"));
