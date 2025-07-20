@@ -1146,3 +1146,9 @@
 // }
 
 
+// Q 06
+document.writeln("Random random number between 0 and 100 is: " + Math.round(Math.random() * 100));
+
+
+
+
