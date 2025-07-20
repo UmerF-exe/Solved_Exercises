@@ -1135,12 +1135,14 @@
 
 
 // Q 05
-var coinValue = Math.round(Math.random() * 1);
-if(coinValue === 0) {
-    document.writeln("<p>" + coinValue + "</p");
-    document.writeln("<p>Random coin value: Heads</p>");
-}
-else {
-    document.writeln("<p>" + coinValue + "</p");
-    document.writeln("<p>Random coin value: Tails</p>");
-}
+// var coinValue = Math.round(Math.random() * 1);
+// if(coinValue === 0) {
+//     document.writeln("<p>" + coinValue + "</p");
+//     document.writeln("<p>Random coin value: Heads</p>");
+// }
+// else {
+//     document.writeln("<p>" + coinValue + "</p");
+//     document.writeln("<p>Random coin value: Tails</p>");
+// }
+
+
