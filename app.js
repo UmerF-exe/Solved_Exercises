@@ -774,3 +774,16 @@
 //     document.writeln(i + "<br>");
 // }
 
+
+// Q 04
+var tableNumber = +prompt("Enter a number for multiplication table:");
+var tableLength = +prompt("Enter length of table:");
+if (tableNumber && tableLength){
+    document.writeln("<h1>Multiplication Table of " + tableNumber + "</h1>");
+    document.writeln("<h1>Length of Table: " + tableLength + "</h1>");
+    for (var i = 1; i <= tableLength; i++) {
+        document.writeln("<p>" + tableNumber + " x " + i + " = " + (tableNumber * i) + "</p>");
+    }
+}
+
+
