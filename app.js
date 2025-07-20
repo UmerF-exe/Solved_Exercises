@@ -1006,7 +1006,7 @@
 
 
 // Q 10
-var userInput = prompt("Enter any word / sentence");
-document.writeln("<p>User Input: " + userInput + "</p>");
-document.writeln("<p>Upper Case: " + userInput.toUpperCase());
+// var userInput = prompt("Enter any word / sentence");
+// document.writeln("<p>User Input: " + userInput + "</p>");
+// document.writeln("<p>Upper Case: " + userInput.toUpperCase());
 
