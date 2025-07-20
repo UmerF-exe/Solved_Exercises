@@ -1030,3 +1030,12 @@
 //     }
 // }
 // document.writeln("<p>Title Case: " + result);
+
+
+// Q 12
+var num = 35.36;
+document.writeln("<p>Number: " + num + "</p>");
+var str = String(num);
+str = str.slice(0,2) + str.slice(3)
+document.writeln("<p>Result: " + str);
+
