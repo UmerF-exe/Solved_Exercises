@@ -1049,18 +1049,18 @@
 
 
 // Q 14
-var arr =  ["cake", "apple pie", "cookie", "chips", "patties"];
-var found = false;
-var userInput = prompt("What do you want to buy / order on our bakery, dear Sir / Ma'am: ").toLowerCase();
-for(var i = 0; i < arr.length; i++){
-    if(userInput === arr[i]){
-        found = true;
-        break;
-    }
-}
-if(found){
-    alert("Yes! " + userInput + " is available at index " + arr.indexOf(userInput) + " in our bakery." );
-}
-else{
-    alert("Sorry! " + userInput + " is not available in our bakery." );
-}
+// var arr =  ["cake", "apple pie", "cookie", "chips", "patties"];
+// var found = false;
+// var userInput = prompt("What do you want to buy / order on our bakery, dear Sir / Ma'am: ").toLowerCase();
+// for(var i = 0; i < arr.length; i++){
+//     if(userInput === arr[i]){
+//         found = true;
+//         break;
+//     }
+// }
+// if(found){
+//     alert("Yes! " + userInput + " is available at index " + arr.indexOf(userInput) + " in our bakery." );
+// }
+// else{
+//     alert("Sorry! " + userInput + " is not available in our bakery." );
+// }
