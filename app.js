@@ -1092,3 +1092,16 @@
 // document.writeln("<p>User Input: " + userInput + "</p>");
 // document.writeln("<p>Last character of input: " + userInput.charAt(userInput.length - 1) + "</p>");
 
+
+// Q 18
+var text = "The quick brown fox jumps over the lazy dog";
+var count = 0;
+var word = "the";
+for (var i = 0; i < text.length; i++){
+    if (text.slice(i, i + word.length).toLowerCase() === word){
+        count++;
+    }
+}
+document.writeln("<p>Text: " + text + "</p>");
+document.writeln("<p>There are " + count + " occurrence(s) of the word '" + word + "' in the text.</p>");
+
