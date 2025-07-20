@@ -875,3 +875,9 @@
 // document.writeln("<p>Array items: " + numberItems + "</p>");
 // document.writeln("<p>The largest number is: " + smallestNumber + "</p>");
 
+
+// Q 10
+for (var i = 5; i <= 100; i += 5) {
+    document.writeln(i + ", ");
+}
+
