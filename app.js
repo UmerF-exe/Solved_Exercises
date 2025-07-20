@@ -1039,3 +1039,12 @@
 // str = str.slice(0,2) + str.slice(3)
 // document.writeln("<p>Result: " + str);
 
+// Q 13
+var userName = prompt("Enter the username: ");
+for (var i = 0; i < userName.length; i++){
+    if(userName[i] === "!" || userName[i] === "," || userName[i] === "." || userName[i] === "@"){
+        alert("Please enter the correct username");
+    }
+}
+
+
