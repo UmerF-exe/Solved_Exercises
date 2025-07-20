@@ -831,25 +831,25 @@
 
 
 // Q 07
-var bakeryItems = ["cake", "apple pie", "cookie", "chips", "patties"];
-var userInput = prompt("Welcome to ABC Bakery. What do you want to order?").toLowerCase();
-var flag = false;
-for (var i = 0; i < bakeryItems.length; i++){
-    if (bakeryItems[i] === userInput){
-        flag = true;
-        break;
-    }
-    else {
-        flag = false;
-        continue;
-    }
-}
-if (flag){
-    document.writeln(userInput + " is available at index " + i + " in our bakery.");
-}
-else{
-        document.writeln(userInput + " is not available  in our bakery.");
-}
+// var bakeryItems = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var userInput = prompt("Welcome to ABC Bakery. What do you want to order?").toLowerCase();
+// var flag = false;
+// for (var i = 0; i < bakeryItems.length; i++){
+//     if (bakeryItems[i] === userInput){
+//         flag = true;
+//         break;
+//     }
+//     else {
+//         flag = false;
+//         continue;
+//     }
+// }
+// if (flag){
+//     document.writeln(userInput + " is available at index " + i + " in our bakery.");
+// }
+// else{
+//     document.writeln(userInput + " is not available  in our bakery.");
+// }
 
 
 
