@@ -1063,9 +1063,18 @@
 
 
 // Q 15
-// var userPassword = prompt("Enter your password: ");
-// if(userPassword[0] <= 9 || userPassword.length < 6){
-//     alert("Kindly enter the valid password");
-// }
-
+var userPassword = prompt("Enter your password: ");
+var flag = true;
+for (var i = 0; i < userPassword.length; i++) {
+    if (userPassword[i] === "!" || userPassword[i] === "," || userPassword[i] === "." || userPassword[i] === "@") {
+        flag = false;
+        break;
+    }
+}
+if (flag && userPassword.length >= 6 && isNaN(userPassword[0])) {
+    alert("Password is valid.");
+}
+else {
+    alert("Please enter a valid password. Password must be at least 6 characters long and should not start with a number or contain special characters.");
+}
 
