@@ -986,6 +986,6 @@
 
 
 // Q 07
-var str = "Hyderabad";
-document.writeln("<p>String: " + str + "</p>");
-document.writeln("<p>After replacement: " + str.replace("Hyder", "Islam"));
+// var str = "Hyderabad";
+// document.writeln("<p>String: " + str + "</p>");
+// document.writeln("<p>After replacement: " + str.replace("Hyder", "Islam"));
