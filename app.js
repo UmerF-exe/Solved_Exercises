@@ -1087,3 +1087,8 @@
 // }
 
 
+// Q 17
+var userInput = prompt("Enter a word or sentence: ");
+document.writeln("<p>User Input: " + userInput + "</p>");
+document.writeln("<p>Last character of input: " + userInput.charAt(userInput.length - 1) + "</p>");
+
