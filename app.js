@@ -998,9 +998,9 @@
 
 
 // Q 09
-var str = "472";
-document.writeln("<p>Value: " + str + "</p>");
-document.writeln("<p>Type: " + typeof(str));
-document.writeln("<p>Value: " + str + "</p>");
-document.writeln("<p>Type: " + typeof(Number(str)));
+// var str = "472";
+// document.writeln("<p>Value: " + str + "</p>");
+// document.writeln("<p>Type: " + typeof(str));
+// document.writeln("<p>Value: " + str + "</p>");
+// document.writeln("<p>Type: " + typeof(Number(str)));
 
