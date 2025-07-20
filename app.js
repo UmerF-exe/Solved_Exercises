@@ -1117,10 +1117,10 @@
 
 
 // Q 02
-var number = +prompt("Enter a negative integer: ");
-document.writeln("<p>Number: " + number + "</p>");
-document.writeln("<p>Round off value: " + Math.round(number) + "</p>");
-document.writeln("<p>Floor value: " + Math.floor(number) + "</p>");
-document.writeln("<p>Ceil value: " + Math.ceil(number) + "</p>");
+// var number = +prompt("Enter a negative integer: ");
+// document.writeln("<p>Number: " + number + "</p>");
+// document.writeln("<p>Round off value: " + Math.round(number) + "</p>");
+// document.writeln("<p>Floor value: " + Math.floor(number) + "</p>");
+// document.writeln("<p>Ceil value: " + Math.ceil(number) + "</p>");
 
 
