@@ -989,3 +989,9 @@
 // var str = "Hyderabad";
 // document.writeln("<p>String: " + str + "</p>");
 // document.writeln("<p>After replacement: " + str.replace("Hyder", "Islam"));
+
+
+// Q 08
+var message = "Ali and Sami are best friends. They play cricket and football together";
+document.writeln("<p>Message: " + message + "</p>");
+document.writeln("<p>After replacement: " + message.replaceAll("and","&"));
