@@ -1127,3 +1127,9 @@
 // Q 03
 // var number = +prompt("Enter a number to find its absolute value: ");
 // document.writeln("<p>Absolute value of " + number + " is: " + Math.abs(number) + "</p>");
+
+
+// Q 04
+var diceRoll = Math.round(Math.random() * 6);
+document.writeln("Random dice value: " + diceRoll);
+
