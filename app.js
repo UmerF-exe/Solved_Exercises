@@ -848,8 +848,7 @@
 //     document.writeln(userInput + " is available at index " + i + " in our bakery.");
 // }
 // else{
-//     document.writeln(userInput + " is not available  in our bakery.");
+//     document.writeln("We are sorry. " + userInput + " is not available  in our bakery.");
 // }
-
 
 
