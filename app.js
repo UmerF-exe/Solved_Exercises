@@ -973,6 +973,11 @@
 // document.writeln("<p>Last Index of 'l' is: " + str.lastIndexOf("l"));
 
 // Q 05
-var str = "Pakistani";
-document.writeln("<p>String: " + str + "</p>");
-document.writeln("<p>Character at index 3 is: " + str.charAt(3));
+// var str = "Pakistani";
+// document.writeln("<p>String: " + str + "</p>");
+// document.writeln("<p>Character at index 3 is: " + str.charAt(3));
+
+
+
+
+
