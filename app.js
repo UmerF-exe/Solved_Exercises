@@ -756,5 +756,5 @@
 // Chapter 17-20
 
 // Q 01
-var multiArray = [{}, {}, {}];
+// var multiArray = [{}, {}, {}];
 
