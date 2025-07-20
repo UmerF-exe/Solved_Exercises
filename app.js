@@ -839,10 +839,6 @@
 //         flag = true;
 //         break;
 //     }
-//     else {
-//         flag = false;
-//         continue;
-//     }
 // }
 // if (flag){
 //     document.writeln(userInput + " is available at index " + i + " in our bakery.");
