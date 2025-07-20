@@ -949,9 +949,9 @@
 // Chapters 21 - 25
 
 // Q 01
-var firstName = prompt("Enter your first name: ");
-var lastName = prompt("Enter your last name: ");
-var fullName = firstName + " " + lastName;
-alert(fullName + ", Welcome to my site.!");
+// var firstName = prompt("Enter your first name: ");
+// var lastName = prompt("Enter your last name: ");
+// var fullName = firstName + " " + lastName;
+// alert(fullName + ", Welcome to my site.!");
 
 
