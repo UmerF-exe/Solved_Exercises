@@ -797,4 +797,36 @@
 // }
 
 
+// Q 06
+
+// a)
+document.writeln("<h1>Counting:</h1>");
+for (var i = 1; i <= 15; i++){
+    document.writeln(i + ", ");
+}
+
+// b)
+document.writeln("<h1>Reverse Counting:</h1>");
+for (var i = 10; i >= 1; i--){
+    document.writeln(i + ", ");
+}
+
+// c)
+document.writeln("<h1>Even:</h1>");
+for (var i = 0; i <= 20; i+= 2){
+    document.writeln(i + ", ");
+}
+
+// d)
+document.writeln("<h1>Odd:</h1>");
+for (var i = 1; i <= 19; i+= 2){
+    document.writeln(i + ", ");
+}
+
+// e)
+document.writeln("<h1>Series:</h1>");
+for (var i = 2; i <= 20; i+= 2){
+    document.writeln(i + "k, ");
+}
+
 
