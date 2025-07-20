@@ -1062,3 +1062,10 @@
 // }
 
 
+// Q 15
+var userPassword = prompt("Enter your password: ");
+if(userPassword[0] <= 9 || userPassword.length < 6){
+    alert("Kindly enter the valid password");
+}
+
+
