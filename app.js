@@ -760,13 +760,13 @@
 
 
 // Q 02
-var multiArray = [[0, 1, 2, 3],[1, 0, 1, 2],[2, 1, 0, 1]];
-for (var i = 0; i < multiArray.length; i++) {
-    for (var j = 0; j < multiArray[i].length; j++) {
-        document.writeln(multiArray[i][j] + " ");
-    }
-    document.writeln("<br>");
-}
+// var multiArray = [[0, 1, 2, 3],[1, 0, 1, 2],[2, 1, 0, 1]];
+// for (var i = 0; i < multiArray.length; i++) {
+//     for (var j = 0; j < multiArray[i].length; j++) {
+//         document.writeln(multiArray[i][j] + " ");
+//     }
+//     document.writeln("<br>");
+// }
 
 
 
