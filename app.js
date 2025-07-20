@@ -959,3 +959,9 @@
 // var favoritePhone = prompt("Enter the name of your favorite mobile phone model:");
 // document.writeln("<p>My favorite phone is: " + favoritePhone + "</p>");
 // document.writeln("<p>Length of String: " + favoritePhone.length + "</p>");
+
+
+// Q 03
+var str = "Pakistani";
+document.writeln("<p>String: " + str + "</p>");
+document.writeln("<p>Index of 'n' is: " + str.indexOf("n"));
