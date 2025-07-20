@@ -985,3 +985,7 @@
 // alert(fullName + ", Welcome to my site.!");
 
 
+// Q 07
+var str = "Hyderabad";
+document.writeln("<p>String: " + str + "</p>");
+document.writeln("<p>After replacement: " + str.replace("Hyder", "Islam"));
