@@ -956,6 +956,6 @@
 
 
 // Q 02
-var favoritePhone = prompt("Enter the name of your favorite mobile phone model:");
-document.writeln("<p>My favorite phone is: " + favoritePhone + "</p>");
-document.writeln("<p>Length of String: " + favoritePhone.length + "</p>");
+// var favoritePhone = prompt("Enter the name of your favorite mobile phone model:");
+// document.writeln("<p>My favorite phone is: " + favoritePhone + "</p>");
+// document.writeln("<p>Length of String: " + favoritePhone.length + "</p>");
