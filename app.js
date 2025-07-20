@@ -1010,3 +1010,23 @@
 // document.writeln("<p>User Input: " + userInput + "</p>");
 // document.writeln("<p>Upper Case: " + userInput.toUpperCase());
 
+
+// Q 11
+var userInput = prompt("Enter any word / sentence");
+document.writeln("<p>User Input: " + userInput + "</p>");
+var result = "";
+var flag = true;
+for (var i = 0; i < userInput.length; i++){
+    if(flag){
+        result += userInput[i].toUpperCase();
+        flag = false;
+    }
+    else if(userInput[i] === " "){
+        result += userInput[i];
+        flag = true;
+    }
+    else{
+        result += userInput[i].toLowerCase();
+    }
+}
+document.writeln("<p>Title Case: " + result);
