@@ -1223,10 +1223,10 @@
 
 
 // Q 07
-var currrentDate = new Date();
-if(currrentDate.getHours() < 12){
-    alert("It's AM");
-}
-else{
-    alert("It's PM");
-}
+// var currrentDate = new Date();
+// if(currrentDate.getHours() < 12){
+//     alert("It's AM");
+// }
+// else{
+//     alert("It's PM");
+// }
