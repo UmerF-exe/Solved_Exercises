@@ -1213,3 +1213,11 @@
 //     document.writeln("<h1>Last Days of the month</h1>");
 // }
 
+
+// Q 06
+var currrentDate = new Date();
+document.writeln("<p>Current Date: " + currrentDate + "</p>");
+var milliseconds = currrentDate.getTime();
+document.writeln("<p>Ellapsed milliseconds since January 1, 1970: " + milliseconds + "</p>");
+document.writeln("<p>Ellapsed minutes since January 1, 1970: " + (milliseconds / (1000 * 60 * 60)) + "</p>");
+
