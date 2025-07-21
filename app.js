@@ -1259,8 +1259,8 @@
 
 
 // Q 12
-var currentDate = new Date();
-alert("Current Date: " + currentDate);
-currentDate.setFullYear(currentDate.getFullYear() - 100);
-alert("100 years back it was " + currentDate);
+// var currentDate = new Date();
+// alert("Current Date: " + currentDate);
+// currentDate.setFullYear(currentDate.getFullYear() - 100);
+// alert("100 years back it was " + currentDate);
 
