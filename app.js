@@ -1273,22 +1273,22 @@
 
 
 // Q 14
-var customerName = prompt("Enter Customer Name:");
-var numberOfUnits = +prompt("Enter number of units ordered");
-var chargesPerUnit = 16;
-var netAmount = numberOfUnits * chargesPerUnit;
-var lateAmountSurcharges = 350;
-var grossAmount = netAmount + lateAmountSurcharges;
-var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-var currentDate = new Date();
+// var customerName = prompt("Enter Customer Name:");
+// var numberOfUnits = +prompt("Enter number of units ordered");
+// var chargesPerUnit = 16;
+// var netAmount = numberOfUnits * chargesPerUnit;
+// var lateAmountSurcharges = 350;
+// var grossAmount = netAmount + lateAmountSurcharges;
+// var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+// var currentDate = new Date();
 
-document.writeln("<h1>K-Electric Bill</h1>");
-document.writeln("<p>Customer Name: " + customerName + "</p>");
-document.writeln("<p>Month: " + months[currentDate.getMonth()] + "</p>");
-document.writeln("<p>Number of Units: " + numberOfUnits + "</p>");
-document.writeln("<p>Charges per unit: " + chargesPerUnit + "</p>");
-document.writeln("<p>Net Amount Payable (Within Due Date): " + netAmount + "</p>");
-document.writeln("<p>Late amount surcharge: " + lateAmountSurcharges + "</p>");
-document.writeln("<p>Gross Amount Payable (After Due Date): " + grossAmount + "</p>");
+// document.writeln("<h1>K-Electric Bill</h1>");
+// document.writeln("<p>Customer Name: " + customerName + "</p>");
+// document.writeln("<p>Month: " + months[currentDate.getMonth()] + "</p>");
+// document.writeln("<p>Number of Units: " + numberOfUnits + "</p>");
+// document.writeln("<p>Charges per unit: " + chargesPerUnit + "</p>");
+// document.writeln("<p>Net Amount Payable (Within Due Date): " + netAmount + "</p>");
+// document.writeln("<p>Late amount surcharge: " + lateAmountSurcharges + "</p>");
+// document.writeln("<p>Gross Amount Payable (After Due Date): " + grossAmount + "</p>");
 
 
