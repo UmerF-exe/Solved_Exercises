@@ -1266,8 +1266,8 @@
 
 
 // Q 13
-var age = +prompt("Enter your age: ");
-document.writeln("<p>Your age is: " + age + "</p>");
-var currentDate = new Date();
-document.writeln("<p>Your birth year is: " + (currentDate.getFullYear() - age) + "</p>");
+// var age = +prompt("Enter your age: ");
+// document.writeln("<p>Your age is: " + age + "</p>");
+// var currentDate = new Date();
+// document.writeln("<p>Your birth year is: " + (currentDate.getFullYear() - age) + "</p>");
 
