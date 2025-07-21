@@ -1230,3 +1230,10 @@
 // else{
 //     alert("It's PM");
 // }
+
+
+// Q 08
+var laterDate = new Date("December 31, 2020");
+document.writeln("<p>Later Date: " + laterDate + "</p>");
+
+
