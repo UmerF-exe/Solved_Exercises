@@ -1203,3 +1203,13 @@
 //     alert("Today is: " + today);
 // }
 
+
+// Q 05
+var currrentDate = new Date();
+if(currrentDate.getDate() < 16){
+    document.writeln("<h1>First Fifteen Days of the month</h1>");
+}
+else{
+    document.writeln("<h1>Last Days of the month</h1>");
+}
+
