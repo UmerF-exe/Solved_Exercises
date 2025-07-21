@@ -1303,9 +1303,9 @@
 
 
 // Q 02
-function greetings(firstName, lastName){
-    var fullName = firstName + " " + lastName;
-    alert("Welcome " + fullName + ".!");
-}
-greetings("Umer", "Farooque");
+// function greetings(firstName, lastName){
+//     var fullName = firstName + " " + lastName;
+//     alert("Welcome " + fullName + ".!");
+// }
+// greetings("Umer", "Farooque");
 
