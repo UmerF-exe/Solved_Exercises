@@ -1320,27 +1320,27 @@
 
 
 // Q 04
-function calculator(){
-    var num1 = +prompt("Enter first number:");
-    var num2 = +prompt("Enter second number:");
-    var operator = prompt("Enter operator (+, -, *, / or %): ");
-    if(operator === "+"){
-        return "Addition of " + num1 + " & " + num2 + " is: " + (num1 + num2);
-    }
-    else if(operator === "-"){
-        return "Subtraction of " + num1 + " & " + num2 + " is: " + (num1 - num2);
-    }
-    else if(operator === "*"){
-        return "Multiplication of " + num1 + " & " + num2 + " is: " + (num1 * num2);
-    }
-    else if(operator === "/"){
-        return "Division of " + num1 + " & " + num2 + " is: " + (num1 / num2);
-    }
-    else if(operator === "%"){
-        return "Remainder of " + num1 + " / " + num2 + " is: " + (num1 % num2);
-    }
-    else{
-        alert("Invalid number or operator");
-    }
-}
-console.log(calculator());
+// function calculator(){
+//     var num1 = +prompt("Enter first number:");
+//     var num2 = +prompt("Enter second number:");
+//     var operator = prompt("Enter operator (+, -, *, / or %): ");
+//     if(operator === "+"){
+//         return "Addition of " + num1 + " & " + num2 + " is: " + (num1 + num2);
+//     }
+//     else if(operator === "-"){
+//         return "Subtraction of " + num1 + " & " + num2 + " is: " + (num1 - num2);
+//     }
+//     else if(operator === "*"){
+//         return "Multiplication of " + num1 + " & " + num2 + " is: " + (num1 * num2);
+//     }
+//     else if(operator === "/"){
+//         return "Division of " + num1 + " & " + num2 + " is: " + (num1 / num2);
+//     }
+//     else if(operator === "%"){
+//         return "Remainder of " + num1 + " / " + num2 + " is: " + (num1 % num2);
+//     }
+//     else{
+//         alert("Invalid number or operator");
+//     }
+// }
+// console.log(calculator());
