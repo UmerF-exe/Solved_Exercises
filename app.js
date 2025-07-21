@@ -1192,3 +1192,14 @@
 // alert("Current Day: " + days[currrentDate.getDay()]);
 
 
+// Q 04
+var currrentDate = new Date();
+var days = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"]
+var today = days[currrentDate.getDay()];
+if(today === "Sun" || today === "Sat"){
+    document.writeln("<h1>It's Fun Day</h1>");
+}
+else{
+    alert("Today is: " + today);
+}
+
