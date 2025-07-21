@@ -1295,11 +1295,11 @@
 // Chapters 35 - 38
 
 // Q 01
-function currentDate(){
-    var currentDate = new Date();
-    document.writeln("<p>Current Date:  " + currentDate + "</p>");
-}
-currentDate();
+// function currentDate(){
+//     var currentDate = new Date();
+//     document.writeln("<p>Current Date:  " + currentDate + "</p>");
+// }
+// currentDate();
 
 
 
