@@ -1354,12 +1354,12 @@
 
 
 // Q 06
-function calculateFactorial(){
-    var num = +prompt("Enter number to find its factorial: ");
-    var result = 1;
-    for (var i = 1; i <=num; i++){
-        result = result * i;
-    }
-    console.log("Factorial of " + num + " is: " + result);
-}
-calculateFactorial();
+// function calculateFactorial(){
+//     var num = +prompt("Enter number to find its factorial: ");
+//     var result = 1;
+//     for (var i = 1; i <=num; i++){
+//         result = result * i;
+//     }
+//     console.log("Factorial of " + num + " is: " + result);
+// }
+// calculateFactorial();
