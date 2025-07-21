@@ -1257,3 +1257,10 @@
 // currentDate.setHours(currentDate.getHours() - 1);
 // document.writeln("<p>1 hour ago, it was:  " + currentDate + "</p>");
 
+
+// Q 12
+var currentDate = new Date();
+alert("Current Date: " + currentDate);
+currentDate.setFullYear(currentDate.getFullYear() - 100);
+alert("100 years back it was " + currentDate);
+
