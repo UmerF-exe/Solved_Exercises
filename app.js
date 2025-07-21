@@ -1311,11 +1311,11 @@
 
 
 // Q 03
-function addNumbers(){
-    var num1 = +prompt("Enter first number:");
-    var num2 = +prompt("Enter second number:");
-    return num1 + num2;
-}
-console.log("Addition  of two numbers is: " + addNumbers());
+// function addNumbers(){
+//     var num1 = +prompt("Enter first number:");
+//     var num2 = +prompt("Enter second number:");
+//     return num1 + num2;
+// }
+// console.log("Addition  of two numbers is: " + addNumbers());
 
 
