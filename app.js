@@ -1244,3 +1244,9 @@
 // document.writeln("<p>" + Math.round(difference / (1000 * 60 * 60 * 24)) +  " Days have passed since 1st Ramzan 1446.</p>");
 
 
+// Q 10
+var currentDate = new Date("January 1, 2015");
+var referenceDate = new Date("December 05 , 2015");
+var difference = referenceDate.getTime() - currentDate.getTime();
+document.writeln("<p>On reference date " + referenceDate + " " + Math.round(difference / (1000 * 60)) +  ", seconds has passed since begining of 2015.</p>");
+
