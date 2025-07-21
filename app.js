@@ -1363,3 +1363,21 @@
 //     console.log("Factorial of " + num + " is: " + result);
 // }
 // calculateFactorial();
+
+
+// Q 07
+function counting(){
+    var startNum = +prompt("Enter starting number:");
+    var endNum = +prompt("Enter ending number:");
+    var count = 0;
+    for (var i = startNum; i <=endNum; i++){
+        count++;
+        // console.log(++count);
+    }
+    console.log("Total Counting is: " + count);
+}
+counting();
+
+
+
+
