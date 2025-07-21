@@ -1238,9 +1238,9 @@
 
 
 // Q 09
-var currentDate = new Date();
-var ramzanDate = new Date("March 2, 2025");
-var difference = currentDate.getTime() - ramzanDate.getTime();
-document.writeln("<p>" + Math.round(difference / (1000 * 60 * 60 * 24)) +  " Days have passed since 1st Ramzan 1446.</p>");
+// var currentDate = new Date();
+// var ramzanDate = new Date("March 2, 2025");
+// var difference = currentDate.getTime() - ramzanDate.getTime();
+// document.writeln("<p>" + Math.round(difference / (1000 * 60 * 60 * 24)) +  " Days have passed since 1st Ramzan 1446.</p>");
 
 
