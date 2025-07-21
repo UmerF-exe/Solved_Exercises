@@ -1187,8 +1187,8 @@
 
 
 // Q 03
-var currrentDate = new Date();
-var days = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"]
-alert("Current Day: " + days[currrentDate.getDay()]);
+// var currrentDate = new Date();
+// var days = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"]
+// alert("Current Day: " + days[currrentDate.getDay()]);
 
 
