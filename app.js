@@ -1221,3 +1221,12 @@
 // document.writeln("<p>Ellapsed milliseconds since January 1, 1970: " + milliseconds + "</p>");
 // document.writeln("<p>Ellapsed minutes since January 1, 1970: " + (milliseconds / (1000 * 60 * 60)) + "</p>");
 
+
+// Q 07
+var currrentDate = new Date();
+if(currrentDate.getHours() < 12){
+    alert("It's AM");
+}
+else{
+    alert("It's PM");
+}
