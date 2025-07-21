@@ -1180,6 +1180,12 @@
 // document.writeln("<p>Current Date: " + currrentDate + "</p>");
 
 
+// Q 02
+var currrentDate = new Date();
+var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+alert("Current Month: " + months[currrentDate.getMonth()]);
+
+
 
 
 
