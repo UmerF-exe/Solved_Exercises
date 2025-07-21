@@ -1250,3 +1250,10 @@
 // var difference = referenceDate.getTime() - currentDate.getTime();
 // document.writeln("<p>On reference date " + referenceDate + " " + Math.round(difference / (1000 * 60)) +  ", seconds has passed since begining of 2015.</p>");
 
+
+// Q 11
+var currentDate = new Date();
+document.writeln("<p>Current Date: " + currentDate + "</p>");
+currentDate.setHours(currentDate.getHours() - 1);
+document.writeln("<p>1 hour ago, it was:  " + currentDate + "</p>");
+
