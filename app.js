@@ -1176,8 +1176,8 @@
 // Chapters 31 -34
 
 // Q 01
-var currrentDate = new Date();
-document.writeln("<p>Current Date: " + currrentDate + "</p>");
+// var currrentDate = new Date();
+// document.writeln("<p>Current Date: " + currrentDate + "</p>");
 
 
 
