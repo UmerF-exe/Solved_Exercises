@@ -1252,8 +1252,8 @@
 
 
 // Q 11
-var currentDate = new Date();
-document.writeln("<p>Current Date: " + currentDate + "</p>");
-currentDate.setHours(currentDate.getHours() - 1);
-document.writeln("<p>1 hour ago, it was:  " + currentDate + "</p>");
+// var currentDate = new Date();
+// document.writeln("<p>Current Date: " + currentDate + "</p>");
+// currentDate.setHours(currentDate.getHours() - 1);
+// document.writeln("<p>1 hour ago, it was:  " + currentDate + "</p>");
 
