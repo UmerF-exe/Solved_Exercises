@@ -1344,3 +1344,10 @@
 //     }
 // }
 // console.log(calculator());
+
+
+// Q 05
+function squareNum(num){
+    return "Square of " + num + " is: " + num * num;
+}
+console.log(squareNum(225));
