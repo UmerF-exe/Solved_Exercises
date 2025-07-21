@@ -1379,5 +1379,18 @@
 // counting();
 
 
+// Q 08
+function calculateHypotenuse(){
+    var base = +prompt("Enter the base of the triangle:");
+    var perpendicular = +prompt("Enter the perpendicular of the triangle:");
+    function calculateSquare(){
+        base = base * base;
+        perpendicular = perpendicular * perpendicular;
+    }
+    calculateSquare();
+    var hypotenuse = Math.sqrt(base + perpendicular);
+    console.log("Hypotenuse is: " + hypotenuse);
+}
+calculateHypotenuse();
 
 
