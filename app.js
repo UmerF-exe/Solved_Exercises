@@ -1533,3 +1533,25 @@
 // }
 // console.log("Area of triangle is: " + areaOfTriangle(5, 6, 7).toFixed(2));
 
+
+// Q 04
+function calcAverage(sub1, sub2, sub3){
+    return (sub1 + sub2 + sub3) / 3;
+}
+function calcPercent(sub1, sub2, sub3){
+    return ((sub1 + sub2 + sub3) / 300 ) * 100 + "%";
+}
+function mainFunction(){
+    var average = calcAverage(sub1, sub2, sub3);
+    var percentage = calcPercent(sub1, sub2, sub3);
+    console.log("Total Obtained Marks: " + (sub1 + sub2 + sub3));
+    console.log("Average is: " + average);
+    console.log("Percentage is: " + percentage);
+}
+var sub1 = +prompt("Enter marks obtained in Subject1:");
+var sub2 = +prompt("Enter marks obtained in Subject2:");
+var sub3 = +prompt("Enter marks obtained in Subject3:");
+mainFunction(sub1, sub2, sub3);
+
+
+
