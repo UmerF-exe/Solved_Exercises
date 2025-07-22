@@ -1466,6 +1466,20 @@
 // console.log("Longest Word: " + longestWord("Web Development Tutorial"));
 
 
+// Q 13
+function countOccurrences(str, letter) {
+    var count = 0;
+    for (var i = 0; i < str.length; i++) {
+        if (str[i].toLowerCase() === letter.toLowerCase()) {
+            count++;
+        }
+    }
+    return count;
+}
+var str1 = "JSResource.com";
+var letter1 = "o";
+console.log("Occurrences of '" + letter1 + "' in '" + str1 + "': " + countOccurrences(str1, letter1));
+
 
 
 
