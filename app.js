@@ -1431,24 +1431,24 @@
 
 
 // Q 11
-function titleCase(str){
-    var titleCaseStr = "";
-    var flag = true;
-    for (var i = 0; i < str.length; i++){
-        if(flag){
-            titleCaseStr += str[i].toUpperCase();
-            flag = false;
-        }
-        else if(str[i] == " "){
-            titleCaseStr += str[i];
-            flag = true;
-        }
-        else{
-            titleCaseStr += str[i];
-        }
-    }
-    return titleCaseStr;
-}
-console.log(titleCase("the quick brown fox"));
+// function titleCase(str){
+//     var titleCaseStr = "";
+//     var flag = true;
+//     for (var i = 0; i < str.length; i++){
+//         if(flag){
+//             titleCaseStr += str[i].toUpperCase();
+//             flag = false;
+//         }
+//         else if(str[i] == " "){
+//             titleCaseStr += str[i];
+//             flag = true;
+//         }
+//         else{
+//             titleCaseStr += str[i];
+//         }
+//     }
+//     return titleCaseStr;
+// }
+// console.log(titleCase("the quick brown fox"));
 
 
