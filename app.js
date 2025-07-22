@@ -1638,3 +1638,17 @@
 // console.log("The distance in centimeters is: " + centimeterDistance(distance) + " cm.");
 
 
+// Q 09
+function overTimePay(hours){
+    if (hours > 40){
+        return "Overtime payment amount is: " + (hours - 40) * 12;
+    }
+    else{
+        return "No any overtime working hours."
+    }
+}
+var workingHours = +prompt("Enter working hours: ");
+console.log(overTimePay(workingHours));
+
+
+
