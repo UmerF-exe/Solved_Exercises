@@ -1594,3 +1594,27 @@
 // var str = prompt("Enter string contains at most 25 characters:");
 // removeVowels(str);
 
+
+// Q 07
+function countSuccessiveVowels(text) {
+  var count = 0;
+  var vowels = "aeiouAEIOU";
+
+  for (let i = 0; i < text.length - 1; i++) {
+    var ch1 = text[i];
+    var ch2 = text[i + 1];
+
+    switch (true) {
+      case (vowels.includes(ch1) && vowels.includes(ch2)):
+        count++;
+        break;
+    }
+  }
+
+  console.log("Number of successive vowels: " + count);
+}
+var sentence = "Pleases read this application and give me gratuity";
+countSuccessiveVowels(sentence);
+
+
+
