@@ -1523,3 +1523,13 @@
 // console.log(isLeapYear(enteredYear));
 
 
+// Q 03
+function semiPerimeter(a, b, c){
+    return (a + b + c) / 2;
+}
+function areaOfTriangle(a, b, c){
+    var s = semiPerimeter(a, b, c);
+    return Math.sqrt(s * (s - a) * (s - b) * (s - c));
+}
+console.log("Area of triangle is: " + areaOfTriangle(5, 6, 7).toFixed(2));
+
