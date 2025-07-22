@@ -1617,4 +1617,24 @@
 // countSuccessiveVowels(sentence);
 
 
+// Q 08
+function meterDistance(distance){
+    return distance * 1000;
+}
+function feetDistance(){
+    return distance * 1000 * 3.3;
+}
+function inchDistance(distance){
+    return distance * 1000 * 3.3 * 12;
+}
+function centimeterDistance(distance){
+    return distance * 1000 * 100;
+}
+var distance = +prompt("Enter the distance between two cities (in km):");
+console.log("The distance between two cities is: " + distance + " kilometers."); 
+console.log("The distance in meters is: " + meterDistance(distance) + " m.");
+console.log("The distance in feet is: " + feetDistance(distance) + " feets.");
+console.log("The distance in inches is: " + inchDistance(distance) + " inches.");
+console.log("The distance in centimeters is: " + centimeterDistance(distance) + " cm.");
+
 
