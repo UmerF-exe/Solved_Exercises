@@ -1481,5 +1481,16 @@
 // console.log("Occurrences of '" + letter1 + "' in '" + str1 + "': " + countOccurrences(str1, letter1));
 
 
+// Q 14
+function calcCircumference(radius) {
+    return Math.round(2 * Math.PI * radius);
+}
+function calcArea(radius) {
+    return Math.round(Math.PI * radius * radius);
+}
+var radius = +prompt("Enter the radius of the circle:");
+console.log("Circumference of the circle: " + calcCircumference(radius));
+console.log("Area of the circle: " + calcArea(radius));
+
 
 
