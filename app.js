@@ -1652,14 +1652,14 @@
 
 
 // Q 10
-function amountWithdrawn(amount){
-    var hundreds = Math.floor(amount / 100);
-    var fifty = Math.floor((amount % 100) / 50);
-    var ten = ((amount % 100) % 50 ) / 10;
-    document.writeln("You have " + hundreds + " hundred notes, " + fifty + " fifty notes and " + ten + " tens notes.");
+// function amountWithdrawn(amount){
+//     var hundreds = Math.floor(amount / 100);
+//     var fifty = Math.floor((amount % 100) / 50);
+//     var ten = ((amount % 100) % 50 ) / 10;
+//     document.writeln("You have " + hundreds + " hundred notes, " + fifty + " fifty notes and " + ten + " tens notes.");
 
-}
-var amount = +prompt("Enter amount to withdraw: ");
-amountWithdrawn(amount);
+// }
+// var amount = +prompt("Enter amount to withdraw: ");
+// amountWithdrawn(amount);
 
 
