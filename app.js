@@ -1511,13 +1511,15 @@
 
 
 // Q 02
-function isLeapYear(year) {
-    if(year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0)) {
-        return year + " is a leap year.";
-    }
-    else{
-        return year + " is not a leap year.";
-    }
-}
-var enteredYear = +prompt("Enter the year: ")
-console.log(isLeapYear(enteredYear));
+// function isLeapYear(year) {
+//     if(year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0)) {
+//         return year + " is a leap year.";
+//     }
+//     else{
+//         return year + " is not a leap year.";
+//     }
+// }
+// var enteredYear = +prompt("Enter the year: ")
+// console.log(isLeapYear(enteredYear));
+
+
