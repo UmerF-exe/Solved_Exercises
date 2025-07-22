@@ -1453,17 +1453,17 @@
 
 
 // Q 12
-function longestWord(str) {
-    var words = str.split(" ");
-    var longest = "";
-    for (var i = 0; i < words.length; i++) {
-        if(words[i].length > longest.length){
-            longest = words[i];
-        }
-    }
-    return longest;
-}
-console.log("Longest Word: " + longestWord("Web Development Tutorial"));
+// function longestWord(str) {
+//     var words = str.split(" ");
+//     var longest = "";
+//     for (var i = 0; i < words.length; i++) {
+//         if(words[i].length > longest.length){
+//             longest = words[i];
+//         }
+//     }
+//     return longest;
+// }
+// console.log("Longest Word: " + longestWord("Web Development Tutorial"));
 
 
 
