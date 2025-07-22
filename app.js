@@ -1415,18 +1415,18 @@
 
 
 // Q 10
-function isPalindrome(str){
-    var reversedStr = "";
-    for (var i = str.length - 1; i >= 0; i--){
-        reversedStr += str[i];
-    }
-    if(reversedStr === str){
-        return str + " is palindrome."
-    }
-    else{
-        return str + " is not palindrome."
-    }
-}
-console.log(isPalindrome("wow"));
+// function isPalindrome(str){
+//     var reversedStr = "";
+//     for (var i = str.length - 1; i >= 0; i--){
+//         reversedStr += str[i];
+//     }
+//     if(reversedStr === str){
+//         return str + " is palindrome."
+//     }
+//     else{
+//         return str + " is not palindrome."
+//     }
+// }
+// console.log(isPalindrome("wow"));
 
 
