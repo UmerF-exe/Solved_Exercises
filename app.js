@@ -1555,24 +1555,24 @@
 
 
 // Q 05
-function findIndex(indexChar){
-    console.log("String: " + str);
-    console.log("Character: " + indexChar)
-    var flag = 0;
-    for (var i = 0; i < str.length; i++){
-        if(str[i].toLowerCase() === indexChar){
-            flag = i;
-        }
-    }
-    if(flag){
-        console.log("Index of " + "'" + indexChar +"'" + " is: " + flag);
-    }
-    else{
-        console.log("Not Found! Invalid character or string.");
-    }
-}
-var str = prompt("Write any string:").toLowerCase();
-var indexChar = prompt("Write any character to find it's index in the string " + str + ": ").toLowerCase();
-findIndex(indexChar);
+// function findIndex(indexChar){
+//     console.log("String: " + str);
+//     console.log("Character: " + indexChar)
+//     var flag = 0;
+//     for (var i = 0; i < str.length; i++){
+//         if(str[i].toLowerCase() === indexChar){
+//             flag = i;
+//         }
+//     }
+//     if(flag){
+//         console.log("Index of " + "'" + indexChar +"'" + " is: " + flag);
+//     }
+//     else{
+//         console.log("Not Found! Invalid character or string.");
+//     }
+// }
+// var str = prompt("Write any string:").toLowerCase();
+// var indexChar = prompt("Write any character to find it's index in the string " + str + ": ").toLowerCase();
+// findIndex(indexChar);
 
 
