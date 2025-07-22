@@ -1577,20 +1577,20 @@
 
 
 // Q 06
-function removeVowels(){
-    var result = "";
-    var removedVowels = "";
-    for (var i = 0; i < str.length; i++){
-        if(str[i].toLowerCase() === "a" || str[i].toLowerCase() === "e" || str[i].toLowerCase() === "i" || str[i].toLowerCase() === "o" || str[i].toLowerCase() === "u"){
-            removedVowels += str[i];
-        }
-        else{
-            result += str[i];
-        }
-    }
-    console.log("String: " + str);
-    console.log("String after removing vowels: " + result);
-}
-var str = prompt("Enter string contains at most 25 characters:");
-removeVowels(str);
+// function removeVowels(){
+//     var result = "";
+//     var removedVowels = "";
+//     for (var i = 0; i < str.length; i++){
+//         if(str[i].toLowerCase() === "a" || str[i].toLowerCase() === "e" || str[i].toLowerCase() === "i" || str[i].toLowerCase() === "o" || str[i].toLowerCase() === "u"){
+//             removedVowels += str[i];
+//         }
+//         else{
+//             result += str[i];
+//         }
+//     }
+//     console.log("String: " + str);
+//     console.log("String after removing vowels: " + result);
+// }
+// var str = prompt("Enter string contains at most 25 characters:");
+// removeVowels(str);
 
