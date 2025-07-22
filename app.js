@@ -1394,3 +1394,24 @@
 // calculateHypotenuse();
 
 
+// Q 09
+
+// i)
+function areaOfRectangle(width, height){
+    return width * height;
+}
+console.log(areaOfRectangle(4,6));
+
+// ii)
+function areaRectangle(){
+    for (var i = 0; i < arguments.length; i++){
+        if (typeof arguments[i] !== "number" || typeof arguments[i + 1] !== "number") {
+            return "Please enter valid numbers for width and height.";
+        }
+        return arguments[i] * arguments[i + 1];
+    }
+}
+console.log(areaRectangle(6, 10));
+
+
+
