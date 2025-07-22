@@ -1497,17 +1497,17 @@
 // Chapters 38 - 42
 
 // Q 01
-function calculatePower (base, exponent){
-    if (exponent === 0){
-        return 1;
-    }
-    else{
-        return base * calculatePower(base, exponent - 1);
-    }
-}
-var base = +prompt("Enter the base number:");
-var exponent = +prompt("Enter the exponent number:");
-console.log("Result: " + calculatePower(base, exponent));
+// function calculatePower (base, exponent){
+//     if (exponent === 0){
+//         return 1;
+//     }
+//     else{
+//         return base * calculatePower(base, exponent - 1);
+//     }
+// }
+// var base = +prompt("Enter the base number:");
+// var exponent = +prompt("Enter the exponent number:");
+// console.log("Result: " + calculatePower(base, exponent));
 
 
 
