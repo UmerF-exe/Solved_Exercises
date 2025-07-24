@@ -57,22 +57,22 @@
 // Chapters 49 -52
 
 // Q 01
-var form = document.getElementById("form");
-var body = document.getElementById("body");
-var table = document.getElementById("formRecords");
+// var form = document.getElementById("form");
+// var body = document.getElementById("body");
+// var table = document.getElementById("formRecords");
 
-function addrow(){
-    var firstName = document.getElementById("firstName").value;
-    var lastName = document.getElementById("lastName").value;
-    var email = document.getElementById("email").value;
-    var contact = document.getElementById("contact").value;
-    var birthDate = document.getElementById("birthDate").value;
-    var gender = document.getElementById("gender").value;
-    var password = document.getElementById("password").value;
-    var confirmPassword = document.getElementById("confirmPassword").value;
+// function addrow(){
+//     var firstName = document.getElementById("firstName").value;
+//     var lastName = document.getElementById("lastName").value;
+//     var email = document.getElementById("email").value;
+//     var contact = document.getElementById("contact").value;
+//     var birthDate = document.getElementById("birthDate").value;
+//     var gender = document.getElementById("gender").value;
+//     var password = document.getElementById("password").value;
+//     var confirmPassword = document.getElementById("confirmPassword").value;
 
-    form.style.display = "none";
-    table.style.visibility = "visible";
-    body.innerHTML = "<tr><td>" + firstName + "</td><td>" + lastName + "</td><td>" + email + "</td><td>" + contact + "</td><td>" + birthDate + "</td><td>" + gender + "</td><td>" + password + "</td><td>" + confirmPassword + "</td></tr>";
-}
+//     form.style.display = "none";
+//     table.style.visibility = "visible";
+//     body.innerHTML = "<tr><td>" + firstName + "</td><td>" + lastName + "</td><td>" + email + "</td><td>" + contact + "</td><td>" + birthDate + "</td><td>" + gender + "</td><td>" + password + "</td><td>" + confirmPassword + "</td></tr>";
+// }
 
