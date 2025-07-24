@@ -76,3 +76,12 @@
 //     body.innerHTML = "<tr><td>" + firstName + "</td><td>" + lastName + "</td><td>" + email + "</td><td>" + contact + "</td><td>" + birthDate + "</td><td>" + gender + "</td><td>" + password + "</td><td>" + confirmPassword + "</td></tr>";
 // }
 
+
+// Q 02
+var p = "In previous assignment you have created a tabular data using javascript. Let’s modify that. Create a form which takes student’s details and show each student detail in table. Each row of table must contain a delete button and an edit button. On click on delete button entire row should be deleted. On click on edit button, a hidden form will appear with the values of that row."
+var para = document.getElementById("para");
+para.innerText = p.slice(0,91) + "....";
+function expand(){
+    para.innerText = p;
+}
+
