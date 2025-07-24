@@ -87,23 +87,23 @@
 
 
 // Q 03
-var form = document.getElementById("form");
-var table = document.getElementById("table");
-var body = document.getElementById("body");
+// var form = document.getElementById("form");
+// var table = document.getElementById("table");
+// var body = document.getElementById("body");
 
-function addRow(){
-    var name = document.getElementById("name").value;
-    var rollNo = document.getElementById("roll").value;
-    var cgpa = document.getElementById("cgpa").value;
+// function addRow(){
+//     var name = document.getElementById("name").value;
+//     var rollNo = document.getElementById("roll").value;
+//     var cgpa = document.getElementById("cgpa").value;
     
-    form.style.display = "none";
-    table.style.display = "block";
-    body.innerHTML = "<tr><td>" + name + "</td><td>" + rollNo + "</td><td>" + cgpa + "</td><td><button onclick = 'displayForm()'>Edit</button><button onclick='deleteRow()'>Delete</button></td></tr>";
-}
-function displayForm(){
-    form.style.display = "block";
-    table.style.display = "none";
-}
-function deleteRow(){
-    body.style.display = "none";
-}
+//     form.style.display = "none";
+//     table.style.display = "block";
+//     body.innerHTML = "<tr><td>" + name + "</td><td>" + rollNo + "</td><td>" + cgpa + "</td><td><button onclick = 'displayForm()'>Edit</button><button onclick='deleteRow()'>Delete</button></td></tr>";
+// }
+// function displayForm(){
+//     form.style.display = "block";
+//     table.style.display = "none";
+// }
+// function deleteRow(){
+//     body.style.display = "none";
+// }
