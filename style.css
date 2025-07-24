@@ -83,3 +83,17 @@ th, td{
 } */
 
 
+/* Q 03 */
+table{
+    width: 360px;
+    height: auto;
+    /* visibility: hidden; */
+    margin: 10px auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th, td{
+    border: 2px solid black;
+    padding: 10px;
+}
+
