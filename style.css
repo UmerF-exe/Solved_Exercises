@@ -71,3 +71,13 @@ input:focus{
 .button:hover{
     color: rgb(29, 29, 189); background-color: white;
 }
+table{
+    visibility: hidden;
+    margin: 50px auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th, td{
+    border: 2px solid black;
+    padding: 10px;
+}

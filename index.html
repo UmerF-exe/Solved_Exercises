@@ -58,27 +58,29 @@
 
 
     <!-- Chapters 49 - 52 -->
-    <form action="">
+
+    <!-- Q 01 -->
+    <form action="" id="form">
         <h1>SIGN UP</h1>
         <label>
             First Name:
-            <input type="text" required class="input" id="firstName">
+            <input type="text" required class="input" id="firstName" value="">
         </label>
         <label>
             Last Name:
-            <input type="text" required class="input" id="lastName">
+            <input type="text" required class="input" id="lastName" value="">
         </label>
         <label>
             Email:
-            <input type="email" required class="input" id="email">
+            <input type="email" required class="input" id="email" value="">
         </label>
         <label>
             Contact No:
-            <input type="number" required class="input" id="contact">
+            <input type="number" required class="input" id="contact" value="">
         </label>
         <label>
             Date of Birth:
-            <input type="date" name="" id="" required class="input" id="birthDate">
+            <input type="date" required class="input" id="birthDate">
         </label>
         <label>
             Gender:
@@ -91,19 +93,28 @@
         </label>
         <label>
             Password:
-            <input type="password" name="" id="password" required class="input">
+            <input type="password" id="password" required class="input">
         </label>
         <label>
             Confirm Password:
-            <input type="password" name="" id="confirmPassword" required class="input">
+            <input type="password" id="confirmPassword" required class="input">
         </label>
-        <input type="button" value="SUBMIT" class="button">
+        <input type="button" value="SUBMIT" class="button" onclick="addrow()">
     </form>
-    <table>
+    <table id="formRecords">
         <thead>
-            <tr><th>First Name</th><th>Last Name</th><th>Email</th><th>Contact No</th><th>Date of Birth</th><th>Gender</th><th>Password</th><th>Confirm Password</th></tr>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Contact No</th>
+                <th>Date of Birth</th>
+                <th>Gender</th>
+                <th>Password</th>
+                <th>Confirm Password</th>
+            </tr>
         </thead>
-        <tbody>
+        <tbody id="body">
             
         </tbody>
     </table>
