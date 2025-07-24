@@ -84,7 +84,7 @@ th, td{
 
 
 /* Q 03 */
-table{
+/* table{
     width: 360px;
     height: auto;
     /* visibility: hidden; */
@@ -95,5 +95,5 @@ table{
 th, td{
     border: 2px solid black;
     padding: 10px;
-}
+} */
 
