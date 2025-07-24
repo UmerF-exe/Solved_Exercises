@@ -21,7 +21,7 @@ button {
 
 
 /* Q 05 */
-table{
+/* table{
     border: 2px solid black; border-collapse: collapse; width: 50%; margin: 20px auto;
 }
 th, td{
@@ -41,4 +41,4 @@ button{
 }
 .decrease:hover{
     background-color: white; border: 1px solid red; color: red;
-}
+} */

@@ -44,12 +44,12 @@
 
 
 // Q 05
-var count = document.getElementById("count");
-var countValue = 0;
-function increaseCount(){
-    count.textContent = ++countValue;
-}
-function decreaseCount(){
-    count.textContent = --countValue;
-}
+// var count = document.getElementById("count");
+// var countValue = 0;
+// function increaseCount(){
+//     count.textContent = ++countValue;
+// }
+// function decreaseCount(){
+//     count.textContent = --countValue;
+// }
 
