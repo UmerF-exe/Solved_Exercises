@@ -7,6 +7,6 @@
 
 
 // Q 02
-function linkAlert(){
-    alert("Thanks for purchasing mobile phones with us.");
-}
+// function linkAlert(){
+//     alert("Thanks for purchasing mobile phones with us.");
+// }
