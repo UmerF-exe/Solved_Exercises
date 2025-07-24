@@ -59,44 +59,54 @@
 
     <!-- Chapters 49 - 52 -->
     <form action="">
-        <h1 style="text-align: center;">SIGN UP</h1>
+        <h1>SIGN UP</h1>
         <label>
             First Name:
-            <input type="text">
+            <input type="text" required class="input" id="firstName">
         </label>
         <label>
             Last Name:
-            <input type="text">
+            <input type="text" required class="input" id="lastName">
         </label>
         <label>
             Email:
-            <input type="email">
+            <input type="email" required class="input" id="email">
         </label>
         <label>
             Contact No:
-            <input type="number">
+            <input type="number" required class="input" id="contact">
         </label>
         <label>
             Date of Birth:
-            <input type="date" name="" id="">
+            <input type="date" name="" id="" required class="input" id="birthDate">
         </label>
         <label>
-            Gender: 
-            <input type="radio" name="gender">Male
-            <input type="radio" name="gender">Female
-            <input type="radio" name="gender">Others
+            Gender:
+            <select name="gender" id="gender" required style="width: 200px; height: 30px; border: 1px solid rgb(29, 29, 189); border-radius: 10px;">
+                <option value="No gender selected" selected>Select your gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select>
         </label>
         <label>
             Password:
-            <input type="password" name="" id="">
+            <input type="password" name="" id="password" required class="input">
         </label>
         <label>
             Confirm Password:
-            <input type="password" name="" id="">
+            <input type="password" name="" id="confirmPassword" required class="input">
         </label>
-        <button>Submit</button>
+        <input type="button" value="SUBMIT" class="button">
     </form>
-
+    <table>
+        <thead>
+            <tr><th>First Name</th><th>Last Name</th><th>Email</th><th>Contact No</th><th>Date of Birth</th><th>Gender</th><th>Password</th><th>Confirm Password</th></tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
 
 
     <script src="script.js"></script>
