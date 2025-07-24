@@ -33,14 +33,14 @@
 
 
 // Q 04
-function swapImage(event){
-    if(event.type === "mouseover"){
-        event.target.src = "Images/redme13.jpeg";
-    }
-    else{
-        event.target.src = "Images/samsung_galaxy_s24.jpeg";
-    }
-}
+// function swapImage(event){
+//     if(event.type === "mouseover"){
+//         event.target.src = "Images/redme13.jpeg";
+//     }
+//     else{
+//         event.target.src = "Images/samsung_galaxy_s24.jpeg";
+//     }
+// }
 
 
 
