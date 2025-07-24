@@ -31,3 +31,16 @@
 //     cellDelete.appendChild(btn);
 // }
 
+
+// Q 04
+function swapImage(event){
+    if(event.type === "mouseover"){
+        event.target.src = " https://cdn.moglix.com/p/GWTOSBZ5gdwE2-xxlarge.jpg";
+    }
+    else{
+        event.target.src = "https://t3n9sm.c2.acecdn.net/wp-content/uploads/2024/09/samsung-galaxy-a05-1.jpg";
+    }
+}
+
+
+
