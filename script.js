@@ -107,3 +107,53 @@
 // function deleteRow(){
 //     body.style.display = "none";
 // }
+
+
+
+// Bracket Balanced
+
+function bracketsBalanced(){
+    var input  = "({[}]})";
+// var input = prompt("Enter the set of any brackets:");
+var arr = [];
+for (var i = 0; i < input.length; i++){
+    var x = input[i];
+    if (x === "(" || x === "{" || x === "["){
+        arr.push(x);
+        continue;
+    }
+    if(arr.length === 0){
+        return "Not Balanced";
+    }
+    var check ;
+    switch(x){
+        case ")":
+            check = arr.pop();
+            if(check == "}" || check == "]"){
+                return false;
+            }
+        break;
+        case "}":
+            check = arr.pop();
+            if(check == ")" || check == "]"){
+                return false;
+            }
+        break;
+        case "]":
+            check = arr.pop();
+            if(check == ")" || check == "}"){
+                return false;
+                
+            }
+        break;
+    }
+}
+if(arr.length){
+    return "Not Balanced";
+}
+else{
+    return "Balanced";
+}
+}
+
+console.log(bracketsBalanced());
