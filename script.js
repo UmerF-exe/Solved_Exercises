@@ -161,38 +161,38 @@
 
 // Objects Practice
 
-var cars = {
-    Honda: {
-        Civic: {
-            model: "ABC 2012",
-            type: "hybrid",
-            price: "1200$"
-        },
-        City: {
-            model: "ABC 2012",
-            type: "manual",
-            price: "1150$"
-        }
-    },
-    Toyota: {
-        Corolla: {
-            model: "XYZ 2016",
-            type: "manual",
-            price: "800$"
-        },
-        Alto: {
-            model: "XYZ 2021",
-            type: "hybrid",
-            price: "850$"
-        }
-    }
-}
+// var cars = {
+//     Honda: {
+//         Civic: {
+//             model: "ABC 2012",
+//             type: "hybrid",
+//             price: "1200$"
+//         },
+//         City: {
+//             model: "ABC 2012",
+//             type: "manual",
+//             price: "1150$"
+//         }
+//     },
+//     Toyota: {
+//         Corolla: {
+//             model: "XYZ 2016",
+//             type: "manual",
+//             price: "800$"
+//         },
+//         Alto: {
+//             model: "XYZ 2021",
+//             type: "hybrid",
+//             price: "850$"
+//         }
+//     }
+// }
 
-console.log(cars);
-cars.Toyota.Mehran = {
-    model: "PQR 123",
-    type: "manual",
-    price: "600$"
-}
+// console.log(cars);
+// cars.Toyota.Mehran = {
+//     model: "PQR 123",
+//     type: "manual",
+//     price: "600$"
+// }
 
-console.log(cars);
+// console.log(cars);
