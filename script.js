@@ -196,3 +196,19 @@
 // }
 
 // console.log(cars);
+
+// Object Constructor
+
+// Hosting Plans
+
+function HostingPlans(name, price, space, transferRate, pages){
+    this.name = name;
+    this.price = price;
+    this.space = space;
+    this.transferRate = transferRate;
+    this.pages = pages;
+}
+
+console.log(new HostingPlans("Basic", "3.99$", "100GB", "1000GB/Month", "10"));
+console.log(new HostingPlans("Professional", "5.99$", "500GB", "5000GB/Month", "50"));
+console.log(new HostingPlans("Ultimate", "9.99$", "2000GB", "20000GB/Month", "200"));
